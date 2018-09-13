@@ -1,0 +1,32 @@
+2018-08-15 10:10:00  INFO LoggingHandler:101 - [id: 0x89c80e7d, L:/121.1.3.30:7803] READ: [id: 0x3a0b22b4, L:/121.1.3.30:7803 - R:/133.1.1.68:2343]
+2018-08-15 10:34:22  INFO LoggingHandler:101 - [id: 0x89c80e7d, L:/121.1.3.30:7803] READ COMPLETE
+2018-08-15 10:34:22 DEBUG DefaultListableBeanFactory:249 - Returning cached instance of singleton bean 'bankWithholdService'
+2018-08-15 10:34:22  INFO TcpHandler:58 - TcpHandlerInit.....
+2018-08-15 10:34:22  INFO TcpHandler:64 - 建立联接3a0b22b4 地址：133.1.1.68 端口：2343已连接
+2018-08-15 10:34:22  INFO TcpHandler:109 - 接收 <3a0b22b4>SDB
+2018-08-15 10:34:22  INFO TcpHandler:117 - 发送 <3a0b22b4>ADR
+2018-08-15 10:34:22  INFO TcpHandler:75 - 3a0b22b4已断开
+2018-08-15 10:34:22  INFO TcpHandler:76 - channelInactive
+2018-08-15 10:39:04  INFO LoggingHandler:101 - [id: 0x89c80e7d, L:/121.1.3.30:7803] READ: [id: 0x8c67c1da, L:/121.1.3.30:7803 - R:/133.1.1.68:2345]
+2018-08-15 10:39:04  INFO LoggingHandler:101 - [id: 0x89c80e7d, L:/121.1.3.30:7803] READ COMPLETE
+2018-08-15 10:39:04 DEBUG DefaultListableBeanFactory:249 - Returning cached instance of singleton bean 'bankWithholdService'
+2018-08-15 10:39:04  INFO TcpHandler:58 - TcpHandlerInit.....
+2018-08-15 10:39:04  INFO TcpHandler:64 - 建立联接8c67c1da 地址：133.1.1.68 端口：2345已连接
+2018-08-15 10:39:06  INFO TcpHandler:75 - 8c67c1da已断开
+2018-08-15 10:39:06  INFO TcpHandler:76 - channelInactive
+2018-08-15 10:47:19  INFO LoggingHandler:101 - [id: 0x89c80e7d, L:/121.1.3.30:7803] READ: [id: 0x3944a119, L:/121.1.3.30:7803 - R:/133.1.1.68:2347]
+2018-08-15 10:47:24  INFO LoggingHandler:101 - [id: 0x89c80e7d, L:/121.1.3.30:7803] READ COMPLETE
+2018-08-15 10:47:24 DEBUG DefaultListableBeanFactory:249 - Returning cached instance of singleton bean 'bankWithholdService'
+2018-08-15 10:47:24  INFO TcpHandler:58 - TcpHandlerInit.....
+2018-08-15 10:47:24  INFO TcpHandler:64 - 建立联接3944a119 地址：133.1.1.68 端口：2347已连接
+2018-08-15 10:47:24  INFO TcpHandler:109 - 接收 <3944a119>SDB
+2018-08-15 10:47:24  INFO TcpHandler:117 - 发送 <3944a119>ADR
+2018-08-15 10:47:24  INFO TcpHandler:120 - 接收 <3944a119>000001        71                                  
+2018-08-15 10:47:24  INFO TcpHandler:136 - 接收 <3944a119>07021||16547747||6228580899010991937|||||||||||||||2018-08-15|||lxzls||
+2018-08-15 10:47:24  INFO Job:53 - 代扣用户登记交易正在进行。。。
+2018-08-15 10:47:24  INFO HttpRequestUtil:238 - {"data":"ZOb0\/v3VybFEvp7CPmrc8By3w3tWMk7xN\/DKTaeg93LJOjPOC9tD0mkrM6aYH6RhVqYiJGznHBmb\/\/Oq2BrNCesIsWv82qwWIRuIGbofZop483\/HEf49ZkCeNJza2BTy5bPyroMjrpc7omviwhab7+HIPdgCly09wveILbdhfPoNwOKtR2yzBpFuv+WaJ6ZcKfu1zvQheGsLDCATVjvl5JkguRcswnQ+6paDCUWI9fHnCyGZl2nCmZyCmvZu0z9\/oz\/5c9Wqtwb+ehckf\/7DNIdRjO4eu8Qi3dlzgb15y4\/P6vxvmX5mbPkE67766mKto5a+3kz7VZxPltHluhypE5iIbHM2gEbsa34FxL7egTs=","msg":"请求成功","operatorId":"330414214","ret":0,"sig":"C4A9AB41ED0B6A3ED41CB72A67E5BF81"}
+
+2018-08-15 10:47:24  INFO BankWithholdServiceImpl:183 -  发送 <3944a119>000001       161                                 0
+2018-08-15 10:47:24  INFO BankWithholdServiceImpl:189 -  发送 <3944a119>07021|000|16547747|龙游溪口翠竹小区46-2-401/16547747|6228580899010991937|龙游溪口翠竹小区46-2-401|15888800186|00000016547747||||||||||||2018-08-15|||lxzls|Jhzls|
+2018-08-15 10:47:24  INFO TcpHandler:75 - 3944a119已断开
+2018-08-15 10:47:24  INFO TcpHandler:76 - channelInactive

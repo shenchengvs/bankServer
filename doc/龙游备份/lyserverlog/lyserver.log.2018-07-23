@@ -1,0 +1,367 @@
+2018-07-21 08:31:51  INFO LoggingHandler:101 - [id: 0xe4b47d22, L:/121.1.3.30:7803] READ: [id: 0xdccc61ea, L:/121.1.3.30:7803 - R:/133.1.1.68:1984]
+2018-07-21 08:31:51  INFO LoggingHandler:101 - [id: 0xe4b47d22, L:/121.1.3.30:7803] READ COMPLETE
+2018-07-21 08:31:51 DEBUG DefaultListableBeanFactory:249 - Returning cached instance of singleton bean 'bankWithholdService'
+2018-07-21 08:31:51  INFO TcpHandler:58 - TcpHandlerInit.....
+2018-07-21 08:31:51  INFO TcpHandler:64 - 建立联接dccc61ea 地址：133.1.1.68 端口：1984已连接
+2018-07-21 08:31:51  INFO TcpHandler:109 - 接收 <dccc61ea>SDB
+2018-07-21 08:31:51  INFO TcpHandler:117 - 发送 <dccc61ea>ADR
+2018-07-21 08:31:51  INFO TcpHandler:120 - 接收 <dccc61ea>000001        71                                  
+2018-07-21 08:31:51  INFO TcpHandler:136 - 接收 <dccc61ea>07021||16541850||6228580899017672837|||||||||||||||2018-07-21|||lxzls||
+2018-07-21 08:31:51  INFO Job:53 - 代扣用户登记交易正在进行。。。
+2018-07-21 08:31:51  INFO HttpRequestUtil:238 - {"data":"ZOb0\/v3VybFEvp7CPmrc8BTS4fJudeYNezpDHg2OIh16eQEWlGYeth9oD3OnvXLZvFUsaCx+uYRo12wCjMVMPt5BtDTfo8m2w0yWtUsn7nu1rxTBwxRvi3ji92Mri2eVkCereJk3Gx4GQ4\/Ebakkcqlek+XKav3qBeOw6OQOz5m7gRVD+mslG26TlcrEJnqtZv3NUdTQVHWBqyn29EYZAIHLBJtchFSjS8nfu6VglJ8wEF9lYIAfmYFasFyYTBlzr8lZ+k2S8LMlylllZCrsqk2rTgXKIL4Ui96U33SuRtXUtt2kG9bXTEfl5eT5lvkS9ZU+lOgVasQ5BbtENHv6SxVMDGMLk6XDdv9CPAzAeUY=","msg":"请求成功","operatorId":"330414214","ret":0,"sig":"2A9B7F005F6F5306F47DF0B258520E5F"}
+
+2018-07-21 08:31:51  INFO BankWithholdServiceImpl:183 -  发送 <dccc61ea>000001       152                                 0
+2018-07-21 08:31:51  INFO BankWithholdServiceImpl:189 -  发送 <dccc61ea>07021|000|16541850|龙游溪口翠竹小区22-1-502|6228580899017672837|龙游溪口翠竹小区22-1-502|13645703806|00000016541850||||||||||||2018-07-21|||lxzls|Jhzls|
+2018-07-21 08:31:51  INFO TcpHandler:75 - dccc61ea已断开
+2018-07-21 08:31:51  INFO TcpHandler:76 - channelInactive
+2018-07-23 11:49:54 DEBUG StandardEnvironment:110 - Adding [systemProperties] PropertySource with lowest search precedence
+2018-07-23 11:49:54 DEBUG StandardEnvironment:110 - Adding [systemEnvironment] PropertySource with lowest search precedence
+2018-07-23 11:49:54 DEBUG StandardEnvironment:126 - Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
+2018-07-23 11:49:54  INFO ClassPathXmlApplicationContext:513 - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@5840979b: startup date [Mon Jul 23 11:49:54 CST 2018]; root of context hierarchy
+2018-07-23 11:49:54 DEBUG StandardEnvironment:110 - Adding [systemProperties] PropertySource with lowest search precedence
+2018-07-23 11:49:54 DEBUG StandardEnvironment:110 - Adding [systemEnvironment] PropertySource with lowest search precedence
+2018-07-23 11:49:54 DEBUG StandardEnvironment:126 - Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
+2018-07-23 11:49:54  INFO XmlBeanDefinitionReader:316 - Loading XML bean definitions from class path resource [spring/spring.xml]
+2018-07-23 11:49:54 DEBUG DefaultDocumentLoader:73 - Using JAXP provider [com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderFactoryImpl]
+2018-07-23 11:49:54 DEBUG PluggableSchemaResolver:141 - Loading schema mappings from [META-INF/spring.schemas]
+2018-07-23 11:49:54 DEBUG PluggableSchemaResolver:147 - Loaded schema mappings: {http://www.springframework.org/schema/tx/spring-tx-2.5.xsd=org/springframework/transaction/config/spring-tx-2.5.xsd, http://www.springframework.org/schema/context/spring-context-3.1.xsd=org/springframework/context/config/spring-context-3.1.xsd, http://www.springframework.org/schema/util/spring-util-3.0.xsd=org/springframework/beans/factory/xml/spring-util-3.0.xsd, http://www.springframework.org/schema/tool/spring-tool.xsd=org/springframework/beans/factory/xml/spring-tool-4.0.xsd, http://www.springframework.org/schema/aop/spring-aop-3.2.xsd=org/springframework/aop/config/spring-aop-3.2.xsd, http://www.springframework.org/schema/context/spring-context-4.0.xsd=org/springframework/context/config/spring-context-4.0.xsd, http://www.springframework.org/schema/mvc/spring-mvc-3.2.xsd=org/springframework/web/servlet/config/spring-mvc-3.2.xsd, http://www.springframework.org/schema/lang/spring-lang-3.2.xsd=org/springframework/scripting/config/spring-lang-3.2.xsd, http://www.springframework.org/schema/cache/spring-cache-3.2.xsd=org/springframework/cache/config/spring-cache-3.2.xsd, http://www.springframework.org/schema/jdbc/spring-jdbc-3.1.xsd=org/springframework/jdbc/config/spring-jdbc-3.1.xsd, http://www.springframework.org/schema/util/spring-util-2.0.xsd=org/springframework/beans/factory/xml/spring-util-2.0.xsd, http://www.springframework.org/schema/tool/spring-tool-3.2.xsd=org/springframework/beans/factory/xml/spring-tool-3.2.xsd, http://www.springframework.org/schema/context/spring-context.xsd=org/springframework/context/config/spring-context-4.0.xsd, http://www.springframework.org/schema/aop/spring-aop-4.0.xsd=org/springframework/aop/config/spring-aop-4.0.xsd, http://www.springframework.org/schema/jee/spring-jee-3.2.xsd=org/springframework/ejb/config/spring-jee-3.2.xsd, http://www.springframework.org/schema/context/spring-context-3.0.xsd=org/springframework/context/config/spring-context-3.0.xsd, http://www.springframework.org/schema/jdbc/spring-jdbc-4.0.xsd=org/springframework/jdbc/config/spring-jdbc-4.0.xsd, http://www.springframework.org/schema/mvc/spring-mvc-4.0.xsd=org/springframework/web/servlet/config/spring-mvc-4.0.xsd, http://www.springframework.org/schema/util/spring-util-2.5.xsd=org/springframework/beans/factory/xml/spring-util-2.5.xsd, http://www.springframework.org/schema/beans/spring-beans-3.2.xsd=org/springframework/beans/factory/xml/spring-beans-3.2.xsd, http://www.springframework.org/schema/aop/spring-aop-3.1.xsd=org/springframework/aop/config/spring-aop-3.1.xsd, http://www.springframework.org/schema/lang/spring-lang-4.0.xsd=org/springframework/scripting/config/spring-lang-4.0.xsd, http://www.springframework.org/schema/mvc/spring-mvc.xsd=org/springframework/web/servlet/config/spring-mvc-4.0.xsd, http://www.springframework.org/schema/mvc/spring-mvc-3.1.xsd=org/springframework/web/servlet/config/spring-mvc-3.1.xsd, http://www.springframework.org/schema/tool/spring-tool-4.0.xsd=org/springframework/beans/factory/xml/spring-tool-4.0.xsd, http://www.springframework.org/schema/lang/spring-lang-3.1.xsd=org/springframework/scripting/config/spring-lang-3.1.xsd, http://www.springframework.org/schema/tx/spring-tx-3.2.xsd=org/springframework/transaction/config/spring-tx-3.2.xsd, http://www.springframework.org/schema/cache/spring-cache-3.1.xsd=org/springframework/cache/config/spring-cache-3.1.xsd, http://www.springframework.org/schema/jee/spring-jee-4.0.xsd=org/springframework/ejb/config/spring-jee-4.0.xsd, http://www.springframework.org/schema/jdbc/spring-jdbc-3.0.xsd=org/springframework/jdbc/config/spring-jdbc-3.0.xsd, http://www.springframework.org/schema/jdbc/spring-jdbc.xsd=org/springframework/jdbc/config/spring-jdbc-4.0.xsd, http://www.springframework.org/schema/tool/spring-tool-3.1.xsd=org/springframework/beans/factory/xml/spring-tool-3.1.xsd, http://www.springframework.org/schema/cache/spring-cache-4.0.xsd=org/springframework/cache/config/spring-cache-4.0.xsd, http://www.springframework.org/schema/jee/spring-jee-3.1.xsd=org/springframework/ejb/config/spring-jee-3.1.xsd, http://www.springframework.org/schema/task/spring-task-3.2.xsd=org/springframework/scheduling/config/spring-task-3.2.xsd, http://www.springframework.org/schema/beans/spring-beans-3.1.xsd=org/springframework/beans/factory/xml/spring-beans-3.1.xsd, http://www.springframework.org/schema/util/spring-util.xsd=org/springframework/beans/factory/xml/spring-util-4.0.xsd, http://www.springframework.org/schema/aop/spring-aop-3.0.xsd=org/springframework/aop/config/spring-aop-3.0.xsd, http://www.springframework.org/schema/mvc/spring-mvc-3.0.xsd=org/springframework/web/servlet/config/spring-mvc-3.0.xsd, http://www.springframework.org/schema/beans/spring-beans-4.0.xsd=org/springframework/beans/factory/xml/spring-beans-4.0.xsd, http://www.springframework.org/schema/beans/spring-beans.xsd=org/springframework/beans/factory/xml/spring-beans-4.0.xsd, http://www.springframework.org/schema/lang/spring-lang-3.0.xsd=org/springframework/scripting/config/spring-lang-3.0.xsd, http://www.springframework.org/schema/tx/spring-tx-3.1.xsd=org/springframework/transaction/config/spring-tx-3.1.xsd, http://www.springframework.org/schema/context/spring-context-2.5.xsd=org/springframework/context/config/spring-context-2.5.xsd, http://www.springframework.org/schema/task/spring-task-4.0.xsd=org/springframework/scheduling/config/spring-task-4.0.xsd, http://www.springframework.org/schema/tool/spring-tool-3.0.xsd=org/springframework/beans/factory/xml/spring-tool-3.0.xsd, http://www.springframework.org/schema/tx/spring-tx-4.0.xsd=org/springframework/transaction/config/spring-tx-4.0.xsd, http://www.springframework.org/schema/aop/spring-aop-2.0.xsd=org/springframework/aop/config/spring-aop-2.0.xsd, http://www.springframework.org/schema/jee/spring-jee-3.0.xsd=org/springframework/ejb/config/spring-jee-3.0.xsd, http://www.springframework.org/schema/task/spring-task-3.1.xsd=org/springframework/scheduling/config/spring-task-3.1.xsd, http://www.springframework.org/schema/beans/spring-beans-3.0.xsd=org/springframework/beans/factory/xml/spring-beans-3.0.xsd, http://www.springframework.org/schema/jee/spring-jee.xsd=org/springframework/ejb/config/spring-jee-4.0.xsd, http://www.springframework.org/schema/aop/spring-aop-2.5.xsd=org/springframework/aop/config/spring-aop-2.5.xsd, http://www.springframework.org/schema/lang/spring-lang-2.0.xsd=org/springframework/scripting/config/spring-lang-2.0.xsd, http://www.springframework.org/schema/util/spring-util-3.2.xsd=org/springframework/beans/factory/xml/spring-util-3.2.xsd, http://www.springframework.org/schema/task/spring-task.xsd=org/springframework/scheduling/config/spring-task-4.0.xsd, http://www.springframework.org/schema/tool/spring-tool-2.0.xsd=org/springframework/beans/factory/xml/spring-tool-2.0.xsd, http://www.springframework.org/schema/tx/spring-tx-3.0.xsd=org/springframework/transaction/config/spring-tx-3.0.xsd, http://www.springframework.org/schema/lang/spring-lang-2.5.xsd=org/springframework/scripting/config/spring-lang-2.5.xsd, http://www.springframework.org/schema/jee/spring-jee-2.0.xsd=org/springframework/ejb/config/spring-jee-2.0.xsd, http://www.springframework.org/schema/tool/spring-tool-2.5.xsd=org/springframework/beans/factory/xml/spring-tool-2.5.xsd, http://www.springframework.org/schema/jee/spring-jee-2.5.xsd=org/springframework/ejb/config/spring-jee-2.5.xsd, http://www.springframework.org/schema/util/spring-util-4.0.xsd=org/springframework/beans/factory/xml/spring-util-4.0.xsd, http://www.springframework.org/schema/task/spring-task-3.0.xsd=org/springframework/scheduling/config/spring-task-3.0.xsd, http://www.springframework.org/schema/lang/spring-lang.xsd=org/springframework/scripting/config/spring-lang-4.0.xsd, http://www.springframework.org/schema/context/spring-context-3.2.xsd=org/springframework/context/config/spring-context-3.2.xsd, http://www.springframework.org/schema/util/spring-util-3.1.xsd=org/springframework/beans/factory/xml/spring-util-3.1.xsd, http://www.springframework.org/schema/beans/spring-beans-2.0.xsd=org/springframework/beans/factory/xml/spring-beans-2.0.xsd, http://www.springframework.org/schema/cache/spring-cache.xsd=org/springframework/cache/config/spring-cache-4.0.xsd, http://www.springframework.org/schema/tx/spring-tx.xsd=org/springframework/transaction/config/spring-tx-4.0.xsd, http://www.springframework.org/schema/beans/spring-beans-2.5.xsd=org/springframework/beans/factory/xml/spring-beans-2.5.xsd, http://www.springframework.org/schema/tx/spring-tx-2.0.xsd=org/springframework/transaction/config/spring-tx-2.0.xsd, http://www.springframework.org/schema/jdbc/spring-jdbc-3.2.xsd=org/springframework/jdbc/config/spring-jdbc-3.2.xsd, http://www.springframework.org/schema/aop/spring-aop.xsd=org/springframework/aop/config/spring-aop-4.0.xsd}
+2018-07-23 11:49:54 DEBUG PluggableSchemaResolver:119 - Found XML schema [http://www.springframework.org/schema/beans/spring-beans-3.0.xsd] in classpath: org/springframework/beans/factory/xml/spring-beans-3.0.xsd
+2018-07-23 11:49:54 DEBUG PluggableSchemaResolver:119 - Found XML schema [http://www.springframework.org/schema/context/spring-context-3.0.xsd] in classpath: org/springframework/context/config/spring-context-3.0.xsd
+2018-07-23 11:49:54 DEBUG PluggableSchemaResolver:119 - Found XML schema [http://www.springframework.org/schema/tool/spring-tool-3.0.xsd] in classpath: org/springframework/beans/factory/xml/spring-tool-3.0.xsd
+2018-07-23 11:49:54 DEBUG DefaultBeanDefinitionDocumentReader:108 - Loading bean definitions
+2018-07-23 11:49:54 DEBUG DefaultNamespaceHandlerResolver:157 - Loaded NamespaceHandler mappings: {http://www.springframework.org/schema/p=org.springframework.beans.factory.xml.SimplePropertyNamespaceHandler, http://www.springframework.org/schema/mvc=org.springframework.web.servlet.config.MvcNamespaceHandler, http://www.springframework.org/schema/util=org.springframework.beans.factory.xml.UtilNamespaceHandler, http://www.springframework.org/schema/jee=org.springframework.ejb.config.JeeNamespaceHandler, http://www.springframework.org/schema/aop=org.springframework.aop.config.AopNamespaceHandler, http://www.springframework.org/schema/jdbc=org.springframework.jdbc.config.JdbcNamespaceHandler, http://www.springframework.org/schema/cache=org.springframework.cache.config.CacheNamespaceHandler, http://www.springframework.org/schema/c=org.springframework.beans.factory.xml.SimpleConstructorNamespaceHandler, http://www.springframework.org/schema/tx=org.springframework.transaction.config.TxNamespaceHandler, http://www.springframework.org/schema/task=org.springframework.scheduling.config.TaskNamespaceHandler, http://www.springframework.org/schema/lang=org.springframework.scripting.config.LangNamespaceHandler, http://www.springframework.org/schema/context=org.springframework.context.config.ContextNamespaceHandler}
+2018-07-23 11:49:54 DEBUG XmlBeanDefinitionReader:223 - Loaded 6 bean definitions from location pattern [spring/spring.xml]
+2018-07-23 11:49:54  INFO XmlBeanDefinitionReader:316 - Loading XML bean definitions from class path resource [spring/spring-job.xml]
+2018-07-23 11:49:54 DEBUG DefaultDocumentLoader:73 - Using JAXP provider [com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderFactoryImpl]
+2018-07-23 11:49:54 DEBUG PluggableSchemaResolver:119 - Found XML schema [http://www.springframework.org/schema/beans/spring-beans-4.0.xsd] in classpath: org/springframework/beans/factory/xml/spring-beans-4.0.xsd
+2018-07-23 11:49:54 DEBUG DefaultBeanDefinitionDocumentReader:108 - Loading bean definitions
+2018-07-23 11:49:54 DEBUG XmlBeanDefinitionReader:223 - Loaded 7 bean definitions from location pattern [spring/spring-job.xml]
+2018-07-23 11:49:54 DEBUG ClassPathXmlApplicationContext:543 - Bean factory for org.springframework.context.support.ClassPathXmlApplicationContext@5840979b: org.springframework.beans.factory.support.DefaultListableBeanFactory@5746e7cc: defining beans [org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,bankWithholdService,bankWithholdServiceHttp,taskJob,taskCreater,taskTrigger,clearFileTaskJob,taskCreater1,taskTrigger1,schdulerFactory]; root of factory hierarchy
+2018-07-23 11:49:54 DEBUG DefaultListableBeanFactory:220 - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+2018-07-23 11:49:54 DEBUG DefaultListableBeanFactory:449 - Creating instance of bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+2018-07-23 11:49:54 DEBUG DefaultListableBeanFactory:523 - Eagerly caching bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor' to allow for resolving potential circular references
+2018-07-23 11:49:54 DEBUG DefaultListableBeanFactory:477 - Finished creating instance of bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+2018-07-23 11:49:54 DEBUG DefaultListableBeanFactory:220 - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+2018-07-23 11:49:54 DEBUG DefaultListableBeanFactory:449 - Creating instance of bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+2018-07-23 11:49:54 DEBUG DefaultListableBeanFactory:523 - Eagerly caching bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor' to allow for resolving potential circular references
+2018-07-23 11:49:54 DEBUG DefaultListableBeanFactory:477 - Finished creating instance of bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+2018-07-23 11:49:54 DEBUG DefaultListableBeanFactory:220 - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalRequiredAnnotationProcessor'
+2018-07-23 11:49:54 DEBUG DefaultListableBeanFactory:449 - Creating instance of bean 'org.springframework.context.annotation.internalRequiredAnnotationProcessor'
+2018-07-23 11:49:54 DEBUG DefaultListableBeanFactory:523 - Eagerly caching bean 'org.springframework.context.annotation.internalRequiredAnnotationProcessor' to allow for resolving potential circular references
+2018-07-23 11:49:54 DEBUG DefaultListableBeanFactory:477 - Finished creating instance of bean 'org.springframework.context.annotation.internalRequiredAnnotationProcessor'
+2018-07-23 11:49:54 DEBUG DefaultListableBeanFactory:220 - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+2018-07-23 11:49:54 DEBUG DefaultListableBeanFactory:449 - Creating instance of bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+2018-07-23 11:49:54 DEBUG DefaultListableBeanFactory:523 - Eagerly caching bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor' to allow for resolving potential circular references
+2018-07-23 11:49:54 DEBUG DefaultListableBeanFactory:477 - Finished creating instance of bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+2018-07-23 11:49:54 DEBUG DefaultListableBeanFactory:220 - Creating shared instance of singleton bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor'
+2018-07-23 11:49:54 DEBUG DefaultListableBeanFactory:449 - Creating instance of bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor'
+2018-07-23 11:49:54 DEBUG DefaultListableBeanFactory:523 - Eagerly caching bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor' to allow for resolving potential circular references
+2018-07-23 11:49:54 DEBUG DefaultListableBeanFactory:477 - Finished creating instance of bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor'
+2018-07-23 11:49:54 DEBUG DefaultListableBeanFactory:220 - Creating shared instance of singleton bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor.enhancedConfigurationProcessor'
+2018-07-23 11:49:54 DEBUG DefaultListableBeanFactory:449 - Creating instance of bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor.enhancedConfigurationProcessor'
+2018-07-23 11:49:54 DEBUG DefaultListableBeanFactory:523 - Eagerly caching bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor.enhancedConfigurationProcessor' to allow for resolving potential circular references
+2018-07-23 11:49:54 DEBUG DefaultListableBeanFactory:477 - Finished creating instance of bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor.enhancedConfigurationProcessor'
+2018-07-23 11:49:54 DEBUG ClassPathXmlApplicationContext:649 - Unable to locate MessageSource with name 'messageSource': using default [org.springframework.context.support.DelegatingMessageSource@3f9e244f]
+2018-07-23 11:49:54 DEBUG ClassPathXmlApplicationContext:673 - Unable to locate ApplicationEventMulticaster with name 'applicationEventMulticaster': using default [org.springframework.context.event.SimpleApplicationEventMulticaster@2fed6d94]
+2018-07-23 11:49:54 DEBUG DefaultListableBeanFactory:672 - Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@5746e7cc: defining beans [org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,bankWithholdService,bankWithholdServiceHttp,taskJob,taskCreater,taskTrigger,clearFileTaskJob,taskCreater1,taskTrigger1,schdulerFactory,org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor,org.springframework.context.annotation.ConfigurationClassPostProcessor.enhancedConfigurationProcessor]; root of factory hierarchy
+2018-07-23 11:49:54 DEBUG DefaultListableBeanFactory:249 - Returning cached instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+2018-07-23 11:49:54 DEBUG DefaultListableBeanFactory:249 - Returning cached instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+2018-07-23 11:49:54 DEBUG DefaultListableBeanFactory:249 - Returning cached instance of singleton bean 'org.springframework.context.annotation.internalRequiredAnnotationProcessor'
+2018-07-23 11:49:54 DEBUG DefaultListableBeanFactory:249 - Returning cached instance of singleton bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+2018-07-23 11:49:54 DEBUG DefaultListableBeanFactory:220 - Creating shared instance of singleton bean 'bankWithholdService'
+2018-07-23 11:49:54 DEBUG DefaultListableBeanFactory:449 - Creating instance of bean 'bankWithholdService'
+2018-07-23 11:49:54 DEBUG DefaultListableBeanFactory:523 - Eagerly caching bean 'bankWithholdService' to allow for resolving potential circular references
+2018-07-23 11:49:54 DEBUG DefaultListableBeanFactory:220 - Creating shared instance of singleton bean 'bankWithholdServiceHttp'
+2018-07-23 11:49:54 DEBUG DefaultListableBeanFactory:449 - Creating instance of bean 'bankWithholdServiceHttp'
+2018-07-23 11:49:54 DEBUG DefaultListableBeanFactory:523 - Eagerly caching bean 'bankWithholdServiceHttp' to allow for resolving potential circular references
+2018-07-23 11:49:54 DEBUG DefaultListableBeanFactory:477 - Finished creating instance of bean 'bankWithholdServiceHttp'
+2018-07-23 11:49:54 DEBUG DefaultListableBeanFactory:477 - Finished creating instance of bean 'bankWithholdService'
+2018-07-23 11:49:54 DEBUG DefaultListableBeanFactory:249 - Returning cached instance of singleton bean 'bankWithholdServiceHttp'
+2018-07-23 11:49:54 DEBUG DefaultListableBeanFactory:220 - Creating shared instance of singleton bean 'taskCreater'
+2018-07-23 11:49:54 DEBUG DefaultListableBeanFactory:449 - Creating instance of bean 'taskCreater'
+2018-07-23 11:49:54 DEBUG DefaultListableBeanFactory:523 - Eagerly caching bean 'taskCreater' to allow for resolving potential circular references
+2018-07-23 11:49:54 DEBUG DefaultListableBeanFactory:449 - Creating instance of bean 'taskJob'
+2018-07-23 11:49:54 DEBUG DefaultListableBeanFactory:477 - Finished creating instance of bean 'taskJob'
+2018-07-23 11:49:54 DEBUG DefaultListableBeanFactory:1595 - Invoking afterPropertiesSet() on bean with name 'taskCreater'
+2018-07-23 11:49:54 DEBUG DefaultListableBeanFactory:477 - Finished creating instance of bean 'taskCreater'
+2018-07-23 11:49:54 DEBUG DefaultListableBeanFactory:220 - Creating shared instance of singleton bean 'taskTrigger'
+2018-07-23 11:49:54 DEBUG DefaultListableBeanFactory:449 - Creating instance of bean 'taskTrigger'
+2018-07-23 11:49:54 DEBUG DefaultListableBeanFactory:523 - Eagerly caching bean 'taskTrigger' to allow for resolving potential circular references
+2018-07-23 11:49:54 DEBUG DefaultListableBeanFactory:249 - Returning cached instance of singleton bean 'taskCreater'
+2018-07-23 11:49:54 DEBUG DefaultListableBeanFactory:1595 - Invoking afterPropertiesSet() on bean with name 'taskTrigger'
+2018-07-23 11:49:54 DEBUG DefaultListableBeanFactory:477 - Finished creating instance of bean 'taskTrigger'
+2018-07-23 11:49:54 DEBUG DefaultListableBeanFactory:220 - Creating shared instance of singleton bean 'taskCreater1'
+2018-07-23 11:49:54 DEBUG DefaultListableBeanFactory:449 - Creating instance of bean 'taskCreater1'
+2018-07-23 11:49:54 DEBUG DefaultListableBeanFactory:523 - Eagerly caching bean 'taskCreater1' to allow for resolving potential circular references
+2018-07-23 11:49:54 DEBUG DefaultListableBeanFactory:449 - Creating instance of bean 'clearFileTaskJob'
+2018-07-23 11:49:54 DEBUG DefaultListableBeanFactory:477 - Finished creating instance of bean 'clearFileTaskJob'
+2018-07-23 11:49:54 DEBUG DefaultListableBeanFactory:1595 - Invoking afterPropertiesSet() on bean with name 'taskCreater1'
+2018-07-23 11:49:54 DEBUG DefaultListableBeanFactory:477 - Finished creating instance of bean 'taskCreater1'
+2018-07-23 11:49:54 DEBUG DefaultListableBeanFactory:220 - Creating shared instance of singleton bean 'taskTrigger1'
+2018-07-23 11:49:54 DEBUG DefaultListableBeanFactory:449 - Creating instance of bean 'taskTrigger1'
+2018-07-23 11:49:54 DEBUG DefaultListableBeanFactory:523 - Eagerly caching bean 'taskTrigger1' to allow for resolving potential circular references
+2018-07-23 11:49:54 DEBUG DefaultListableBeanFactory:249 - Returning cached instance of singleton bean 'taskCreater1'
+2018-07-23 11:49:54 DEBUG DefaultListableBeanFactory:1595 - Invoking afterPropertiesSet() on bean with name 'taskTrigger1'
+2018-07-23 11:49:54 DEBUG DefaultListableBeanFactory:477 - Finished creating instance of bean 'taskTrigger1'
+2018-07-23 11:49:54 DEBUG DefaultListableBeanFactory:220 - Creating shared instance of singleton bean 'schdulerFactory'
+2018-07-23 11:49:54 DEBUG DefaultListableBeanFactory:449 - Creating instance of bean 'schdulerFactory'
+2018-07-23 11:49:54 DEBUG DefaultListableBeanFactory:523 - Eagerly caching bean 'schdulerFactory' to allow for resolving potential circular references
+2018-07-23 11:49:55 DEBUG DefaultListableBeanFactory:249 - Returning cached instance of singleton bean 'taskTrigger'
+2018-07-23 11:49:55 DEBUG DefaultListableBeanFactory:1595 - Invoking afterPropertiesSet() on bean with name 'schdulerFactory'
+2018-07-23 11:49:55  INFO StdSchedulerFactory:1172 - Using default implementation for ThreadExecutor
+2018-07-23 11:49:55  INFO SchedulerSignalerImpl:61 - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2018-07-23 11:49:55  INFO QuartzScheduler:240 - Quartz Scheduler v.2.2.3 created.
+2018-07-23 11:49:55  INFO RAMJobStore:155 - RAMJobStore initialized.
+2018-07-23 11:49:55  INFO QuartzScheduler:305 - Scheduler meta-data: Quartz Scheduler (v2.2.3) 'schdulerFactory' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2018-07-23 11:49:55  INFO StdSchedulerFactory:1327 - Quartz scheduler 'schdulerFactory' initialized from an externally provided properties instance.
+2018-07-23 11:49:55  INFO StdSchedulerFactory:1331 - Quartz scheduler version: 2.2.3
+2018-07-23 11:49:55  INFO QuartzScheduler:2311 - JobFactory set to: org.springframework.scheduling.quartz.AdaptableJobFactory@3cfcde5a
+2018-07-23 11:49:55 DEBUG DefaultListableBeanFactory:477 - Finished creating instance of bean 'schdulerFactory'
+2018-07-23 11:49:55 DEBUG DefaultListableBeanFactory:249 - Returning cached instance of singleton bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor'
+2018-07-23 11:49:55 DEBUG DefaultListableBeanFactory:249 - Returning cached instance of singleton bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor.enhancedConfigurationProcessor'
+2018-07-23 11:49:55 DEBUG ClassPathXmlApplicationContext:700 - Unable to locate LifecycleProcessor with name 'lifecycleProcessor': using default [org.springframework.context.support.DefaultLifecycleProcessor@7bcfceb7]
+2018-07-23 11:49:55 DEBUG DefaultListableBeanFactory:249 - Returning cached instance of singleton bean 'schdulerFactory'
+2018-07-23 11:49:55 DEBUG DefaultListableBeanFactory:249 - Returning cached instance of singleton bean 'lifecycleProcessor'
+2018-07-23 11:49:55  INFO DefaultLifecycleProcessor:341 - Starting beans in phase 2147483647
+2018-07-23 11:49:55 DEBUG DefaultLifecycleProcessor:170 - Starting bean 'schdulerFactory' of type [class org.springframework.scheduling.quartz.SchedulerFactoryBean]
+2018-07-23 11:49:55  INFO SchedulerFactoryBean:649 - Starting Quartz Scheduler now
+2018-07-23 11:49:55  INFO QuartzScheduler:575 - Scheduler schdulerFactory_$_NON_CLUSTERED started.
+2018-07-23 11:49:55 DEBUG DefaultLifecycleProcessor:179 - Successfully started bean 'schdulerFactory'
+2018-07-23 11:49:55 DEBUG PropertySourcesPropertyResolver:81 - Searching for key 'spring.liveBeansView.mbeanDomain' in [systemProperties]
+2018-07-23 11:49:55 DEBUG PropertySourcesPropertyResolver:81 - Searching for key 'spring.liveBeansView.mbeanDomain' in [systemEnvironment]
+2018-07-23 11:49:55 DEBUG PropertySourcesPropertyResolver:103 - Could not find key 'spring.liveBeansView.mbeanDomain' in any property source. Returning [null]
+2018-07-23 11:49:55 DEBUG InternalLoggerFactory:71 - Using SLF4J as the default logging framework
+2018-07-23 11:49:55 DEBUG PlatformDependent:71 - Platform: Windows
+2018-07-23 11:49:55 DEBUG PlatformDependent0:76 - -Dio.netty.noUnsafe: false
+2018-07-23 11:49:55 DEBUG PlatformDependent0:76 - Java version: 7
+2018-07-23 11:49:55 DEBUG PlatformDependent0:71 - sun.misc.Unsafe.theUnsafe: available
+2018-07-23 11:49:55 DEBUG PlatformDependent0:71 - sun.misc.Unsafe.copyMemory: available
+2018-07-23 11:49:55 DEBUG PlatformDependent0:71 - java.nio.Buffer.address: available
+2018-07-23 11:49:55 DEBUG PlatformDependent0:71 - direct buffer constructor: available
+2018-07-23 11:49:55 DEBUG PlatformDependent0:76 - java.nio.Bits.unaligned: available, true
+2018-07-23 11:49:55 DEBUG PlatformDependent0:71 - jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable prior to Java9
+2018-07-23 11:49:55 DEBUG PlatformDependent0:76 - java.nio.DirectByteBuffer.<init>(long, int): available
+2018-07-23 11:49:55 DEBUG PlatformDependent:76 - sun.misc.Unsafe: available
+2018-07-23 11:49:55 DEBUG PlatformDependent:76 - -Dio.netty.tmpdir: C:\Users\ADMINI~1\AppData\Local\Temp (java.io.tmpdir)
+2018-07-23 11:49:55 DEBUG PlatformDependent:76 - -Dio.netty.bitMode: 64 (sun.arch.data.model)
+2018-07-23 11:49:55 DEBUG PlatformDependent:76 - -Dio.netty.noPreferDirect: false
+2018-07-23 11:49:55 DEBUG PlatformDependent:76 - -Dio.netty.maxDirectMemory: 1882718208 bytes
+2018-07-23 11:49:55 DEBUG PlatformDependent:76 - -Dio.netty.uninitializedArrayAllocationThreshold: -1
+2018-07-23 11:49:55 DEBUG CleanerJava6:71 - java.nio.ByteBuffer.cleaner(): available
+2018-07-23 11:49:55  INFO HttpRequestUtil:238 - {"data":"QmkJwJlMPUCvvXZs8djVFV8mxsjf13u2inp4UNdG2gK8KUFX6V7ChJEec4pu51D3cO35PZdAv4DVsbyDK5EIfG5mRYpTX8T7r0+Kic+NI\/2WbUINWp1rMC6lrKcLj\/5HjsltZuHtJVqJ6V\/03uy+H1KUEFp0O25BRJdvBUCalEXaF6XZ2dHCHIV+GU4fl1ER","msg":"请求成功","operatorId":"330414214","ret":0,"sig":"C521530AC0846DFDAB39FBF448AAA82C"}
+
+2018-07-23 11:49:55  INFO MainServer:42 - token初始化成功:a4645920af2348918cf77a81311cb1d8
+2018-07-23 11:49:55 DEBUG MultithreadEventLoopGroup:76 - -Dio.netty.eventLoopThreads: 4
+2018-07-23 11:49:55 DEBUG NioEventLoop:76 - -Dio.netty.noKeySetOptimization: false
+2018-07-23 11:49:55 DEBUG NioEventLoop:76 - -Dio.netty.selectorAutoRebuildThreshold: 512
+2018-07-23 11:49:55 DEBUG PlatformDependent:71 - org.jctools-core.MpscChunkedArrayQueue: available
+2018-07-23 11:49:55 DEBUG DefaultChannelId:76 - -Dio.netty.processId: 8808 (auto-detected)
+2018-07-23 11:49:55 DEBUG NetUtil:76 - -Djava.net.preferIPv4Stack: false
+2018-07-23 11:49:55 DEBUG NetUtil:76 - -Djava.net.preferIPv6Addresses: false
+2018-07-23 11:49:55 DEBUG NetUtil:86 - Loopback interface: lo (Software Loopback Interface 1, 127.0.0.1)
+2018-07-23 11:49:55 DEBUG NetUtil:81 - Failed to get SOMAXCONN from sysctl and file \proc\sys\net\core\somaxconn. Default: 200
+2018-07-23 11:49:55 DEBUG DefaultChannelId:76 - -Dio.netty.machineId: 00:00:00:00:00:00:00:e0 (auto-detected)
+2018-07-23 11:49:55 DEBUG InternalThreadLocalMap:76 - -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+2018-07-23 11:49:55 DEBUG InternalThreadLocalMap:76 - -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+2018-07-23 11:49:55 DEBUG ResourceLeakDetector:81 - -Dio.netty.leakDetection.level: simple
+2018-07-23 11:49:55 DEBUG ResourceLeakDetector:81 - -Dio.netty.leakDetection.targetRecords: 4
+2018-07-23 11:49:55 DEBUG PooledByteBufAllocator:76 - -Dio.netty.allocator.numHeapArenas: 4
+2018-07-23 11:49:55 DEBUG PooledByteBufAllocator:76 - -Dio.netty.allocator.numDirectArenas: 4
+2018-07-23 11:49:55 DEBUG PooledByteBufAllocator:76 - -Dio.netty.allocator.pageSize: 8192
+2018-07-23 11:49:55 DEBUG PooledByteBufAllocator:76 - -Dio.netty.allocator.maxOrder: 11
+2018-07-23 11:49:55 DEBUG PooledByteBufAllocator:76 - -Dio.netty.allocator.chunkSize: 16777216
+2018-07-23 11:49:55 DEBUG PooledByteBufAllocator:76 - -Dio.netty.allocator.tinyCacheSize: 512
+2018-07-23 11:49:55 DEBUG PooledByteBufAllocator:76 - -Dio.netty.allocator.smallCacheSize: 256
+2018-07-23 11:49:55 DEBUG PooledByteBufAllocator:76 - -Dio.netty.allocator.normalCacheSize: 64
+2018-07-23 11:49:55 DEBUG PooledByteBufAllocator:76 - -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+2018-07-23 11:49:55 DEBUG PooledByteBufAllocator:76 - -Dio.netty.allocator.cacheTrimInterval: 8192
+2018-07-23 11:49:55 DEBUG PooledByteBufAllocator:76 - -Dio.netty.allocator.useCacheForAllThreads: true
+2018-07-23 11:49:55 DEBUG ByteBufUtil:76 - -Dio.netty.allocator.type: pooled
+2018-07-23 11:49:55 DEBUG ByteBufUtil:76 - -Dio.netty.threadLocalDirectBufferSize: 0
+2018-07-23 11:49:55 DEBUG ByteBufUtil:76 - -Dio.netty.maxThreadLocalCharBufferSize: 16384
+2018-07-23 11:49:55  INFO LoggingHandler:101 - [id: 0x4e03379a] REGISTERED
+2018-07-23 11:49:55  INFO LoggingHandler:101 - [id: 0x4e03379a] BIND: /121.1.3.30:7803
+2018-07-23 11:49:55  INFO LoggingHandler:101 - [id: 0x4e03379a] CLOSE
+2018-07-23 11:49:55  INFO LoggingHandler:101 - [id: 0x4e03379a] UNREGISTERED
+2018-07-23 11:53:16 DEBUG StandardEnvironment:110 - Adding [systemProperties] PropertySource with lowest search precedence
+2018-07-23 11:53:16 DEBUG StandardEnvironment:110 - Adding [systemEnvironment] PropertySource with lowest search precedence
+2018-07-23 11:53:16 DEBUG StandardEnvironment:126 - Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
+2018-07-23 11:53:16  INFO ClassPathXmlApplicationContext:513 - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@78a16e60: startup date [Mon Jul 23 11:53:16 CST 2018]; root of context hierarchy
+2018-07-23 11:53:16 DEBUG StandardEnvironment:110 - Adding [systemProperties] PropertySource with lowest search precedence
+2018-07-23 11:53:16 DEBUG StandardEnvironment:110 - Adding [systemEnvironment] PropertySource with lowest search precedence
+2018-07-23 11:53:16 DEBUG StandardEnvironment:126 - Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
+2018-07-23 11:53:16  INFO XmlBeanDefinitionReader:316 - Loading XML bean definitions from class path resource [spring/spring.xml]
+2018-07-23 11:53:16 DEBUG DefaultDocumentLoader:73 - Using JAXP provider [com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderFactoryImpl]
+2018-07-23 11:53:16 DEBUG PluggableSchemaResolver:141 - Loading schema mappings from [META-INF/spring.schemas]
+2018-07-23 11:53:16 DEBUG PluggableSchemaResolver:147 - Loaded schema mappings: {http://www.springframework.org/schema/tx/spring-tx-2.5.xsd=org/springframework/transaction/config/spring-tx-2.5.xsd, http://www.springframework.org/schema/context/spring-context-3.1.xsd=org/springframework/context/config/spring-context-3.1.xsd, http://www.springframework.org/schema/util/spring-util-3.0.xsd=org/springframework/beans/factory/xml/spring-util-3.0.xsd, http://www.springframework.org/schema/tool/spring-tool.xsd=org/springframework/beans/factory/xml/spring-tool-4.0.xsd, http://www.springframework.org/schema/aop/spring-aop-3.2.xsd=org/springframework/aop/config/spring-aop-3.2.xsd, http://www.springframework.org/schema/context/spring-context-4.0.xsd=org/springframework/context/config/spring-context-4.0.xsd, http://www.springframework.org/schema/mvc/spring-mvc-3.2.xsd=org/springframework/web/servlet/config/spring-mvc-3.2.xsd, http://www.springframework.org/schema/lang/spring-lang-3.2.xsd=org/springframework/scripting/config/spring-lang-3.2.xsd, http://www.springframework.org/schema/cache/spring-cache-3.2.xsd=org/springframework/cache/config/spring-cache-3.2.xsd, http://www.springframework.org/schema/jdbc/spring-jdbc-3.1.xsd=org/springframework/jdbc/config/spring-jdbc-3.1.xsd, http://www.springframework.org/schema/util/spring-util-2.0.xsd=org/springframework/beans/factory/xml/spring-util-2.0.xsd, http://www.springframework.org/schema/tool/spring-tool-3.2.xsd=org/springframework/beans/factory/xml/spring-tool-3.2.xsd, http://www.springframework.org/schema/context/spring-context.xsd=org/springframework/context/config/spring-context-4.0.xsd, http://www.springframework.org/schema/aop/spring-aop-4.0.xsd=org/springframework/aop/config/spring-aop-4.0.xsd, http://www.springframework.org/schema/jee/spring-jee-3.2.xsd=org/springframework/ejb/config/spring-jee-3.2.xsd, http://www.springframework.org/schema/context/spring-context-3.0.xsd=org/springframework/context/config/spring-context-3.0.xsd, http://www.springframework.org/schema/jdbc/spring-jdbc-4.0.xsd=org/springframework/jdbc/config/spring-jdbc-4.0.xsd, http://www.springframework.org/schema/mvc/spring-mvc-4.0.xsd=org/springframework/web/servlet/config/spring-mvc-4.0.xsd, http://www.springframework.org/schema/util/spring-util-2.5.xsd=org/springframework/beans/factory/xml/spring-util-2.5.xsd, http://www.springframework.org/schema/beans/spring-beans-3.2.xsd=org/springframework/beans/factory/xml/spring-beans-3.2.xsd, http://www.springframework.org/schema/aop/spring-aop-3.1.xsd=org/springframework/aop/config/spring-aop-3.1.xsd, http://www.springframework.org/schema/lang/spring-lang-4.0.xsd=org/springframework/scripting/config/spring-lang-4.0.xsd, http://www.springframework.org/schema/mvc/spring-mvc.xsd=org/springframework/web/servlet/config/spring-mvc-4.0.xsd, http://www.springframework.org/schema/mvc/spring-mvc-3.1.xsd=org/springframework/web/servlet/config/spring-mvc-3.1.xsd, http://www.springframework.org/schema/tool/spring-tool-4.0.xsd=org/springframework/beans/factory/xml/spring-tool-4.0.xsd, http://www.springframework.org/schema/lang/spring-lang-3.1.xsd=org/springframework/scripting/config/spring-lang-3.1.xsd, http://www.springframework.org/schema/tx/spring-tx-3.2.xsd=org/springframework/transaction/config/spring-tx-3.2.xsd, http://www.springframework.org/schema/cache/spring-cache-3.1.xsd=org/springframework/cache/config/spring-cache-3.1.xsd, http://www.springframework.org/schema/jee/spring-jee-4.0.xsd=org/springframework/ejb/config/spring-jee-4.0.xsd, http://www.springframework.org/schema/jdbc/spring-jdbc-3.0.xsd=org/springframework/jdbc/config/spring-jdbc-3.0.xsd, http://www.springframework.org/schema/jdbc/spring-jdbc.xsd=org/springframework/jdbc/config/spring-jdbc-4.0.xsd, http://www.springframework.org/schema/tool/spring-tool-3.1.xsd=org/springframework/beans/factory/xml/spring-tool-3.1.xsd, http://www.springframework.org/schema/cache/spring-cache-4.0.xsd=org/springframework/cache/config/spring-cache-4.0.xsd, http://www.springframework.org/schema/jee/spring-jee-3.1.xsd=org/springframework/ejb/config/spring-jee-3.1.xsd, http://www.springframework.org/schema/task/spring-task-3.2.xsd=org/springframework/scheduling/config/spring-task-3.2.xsd, http://www.springframework.org/schema/beans/spring-beans-3.1.xsd=org/springframework/beans/factory/xml/spring-beans-3.1.xsd, http://www.springframework.org/schema/util/spring-util.xsd=org/springframework/beans/factory/xml/spring-util-4.0.xsd, http://www.springframework.org/schema/aop/spring-aop-3.0.xsd=org/springframework/aop/config/spring-aop-3.0.xsd, http://www.springframework.org/schema/mvc/spring-mvc-3.0.xsd=org/springframework/web/servlet/config/spring-mvc-3.0.xsd, http://www.springframework.org/schema/beans/spring-beans-4.0.xsd=org/springframework/beans/factory/xml/spring-beans-4.0.xsd, http://www.springframework.org/schema/beans/spring-beans.xsd=org/springframework/beans/factory/xml/spring-beans-4.0.xsd, http://www.springframework.org/schema/lang/spring-lang-3.0.xsd=org/springframework/scripting/config/spring-lang-3.0.xsd, http://www.springframework.org/schema/tx/spring-tx-3.1.xsd=org/springframework/transaction/config/spring-tx-3.1.xsd, http://www.springframework.org/schema/context/spring-context-2.5.xsd=org/springframework/context/config/spring-context-2.5.xsd, http://www.springframework.org/schema/task/spring-task-4.0.xsd=org/springframework/scheduling/config/spring-task-4.0.xsd, http://www.springframework.org/schema/tool/spring-tool-3.0.xsd=org/springframework/beans/factory/xml/spring-tool-3.0.xsd, http://www.springframework.org/schema/tx/spring-tx-4.0.xsd=org/springframework/transaction/config/spring-tx-4.0.xsd, http://www.springframework.org/schema/aop/spring-aop-2.0.xsd=org/springframework/aop/config/spring-aop-2.0.xsd, http://www.springframework.org/schema/jee/spring-jee-3.0.xsd=org/springframework/ejb/config/spring-jee-3.0.xsd, http://www.springframework.org/schema/task/spring-task-3.1.xsd=org/springframework/scheduling/config/spring-task-3.1.xsd, http://www.springframework.org/schema/beans/spring-beans-3.0.xsd=org/springframework/beans/factory/xml/spring-beans-3.0.xsd, http://www.springframework.org/schema/jee/spring-jee.xsd=org/springframework/ejb/config/spring-jee-4.0.xsd, http://www.springframework.org/schema/aop/spring-aop-2.5.xsd=org/springframework/aop/config/spring-aop-2.5.xsd, http://www.springframework.org/schema/lang/spring-lang-2.0.xsd=org/springframework/scripting/config/spring-lang-2.0.xsd, http://www.springframework.org/schema/util/spring-util-3.2.xsd=org/springframework/beans/factory/xml/spring-util-3.2.xsd, http://www.springframework.org/schema/task/spring-task.xsd=org/springframework/scheduling/config/spring-task-4.0.xsd, http://www.springframework.org/schema/tool/spring-tool-2.0.xsd=org/springframework/beans/factory/xml/spring-tool-2.0.xsd, http://www.springframework.org/schema/tx/spring-tx-3.0.xsd=org/springframework/transaction/config/spring-tx-3.0.xsd, http://www.springframework.org/schema/lang/spring-lang-2.5.xsd=org/springframework/scripting/config/spring-lang-2.5.xsd, http://www.springframework.org/schema/jee/spring-jee-2.0.xsd=org/springframework/ejb/config/spring-jee-2.0.xsd, http://www.springframework.org/schema/tool/spring-tool-2.5.xsd=org/springframework/beans/factory/xml/spring-tool-2.5.xsd, http://www.springframework.org/schema/jee/spring-jee-2.5.xsd=org/springframework/ejb/config/spring-jee-2.5.xsd, http://www.springframework.org/schema/util/spring-util-4.0.xsd=org/springframework/beans/factory/xml/spring-util-4.0.xsd, http://www.springframework.org/schema/task/spring-task-3.0.xsd=org/springframework/scheduling/config/spring-task-3.0.xsd, http://www.springframework.org/schema/lang/spring-lang.xsd=org/springframework/scripting/config/spring-lang-4.0.xsd, http://www.springframework.org/schema/context/spring-context-3.2.xsd=org/springframework/context/config/spring-context-3.2.xsd, http://www.springframework.org/schema/util/spring-util-3.1.xsd=org/springframework/beans/factory/xml/spring-util-3.1.xsd, http://www.springframework.org/schema/beans/spring-beans-2.0.xsd=org/springframework/beans/factory/xml/spring-beans-2.0.xsd, http://www.springframework.org/schema/cache/spring-cache.xsd=org/springframework/cache/config/spring-cache-4.0.xsd, http://www.springframework.org/schema/tx/spring-tx.xsd=org/springframework/transaction/config/spring-tx-4.0.xsd, http://www.springframework.org/schema/beans/spring-beans-2.5.xsd=org/springframework/beans/factory/xml/spring-beans-2.5.xsd, http://www.springframework.org/schema/tx/spring-tx-2.0.xsd=org/springframework/transaction/config/spring-tx-2.0.xsd, http://www.springframework.org/schema/jdbc/spring-jdbc-3.2.xsd=org/springframework/jdbc/config/spring-jdbc-3.2.xsd, http://www.springframework.org/schema/aop/spring-aop.xsd=org/springframework/aop/config/spring-aop-4.0.xsd}
+2018-07-23 11:53:16 DEBUG PluggableSchemaResolver:119 - Found XML schema [http://www.springframework.org/schema/beans/spring-beans-3.0.xsd] in classpath: org/springframework/beans/factory/xml/spring-beans-3.0.xsd
+2018-07-23 11:53:16 DEBUG PluggableSchemaResolver:119 - Found XML schema [http://www.springframework.org/schema/context/spring-context-3.0.xsd] in classpath: org/springframework/context/config/spring-context-3.0.xsd
+2018-07-23 11:53:16 DEBUG PluggableSchemaResolver:119 - Found XML schema [http://www.springframework.org/schema/tool/spring-tool-3.0.xsd] in classpath: org/springframework/beans/factory/xml/spring-tool-3.0.xsd
+2018-07-23 11:53:16 DEBUG DefaultBeanDefinitionDocumentReader:108 - Loading bean definitions
+2018-07-23 11:53:16 DEBUG DefaultNamespaceHandlerResolver:157 - Loaded NamespaceHandler mappings: {http://www.springframework.org/schema/p=org.springframework.beans.factory.xml.SimplePropertyNamespaceHandler, http://www.springframework.org/schema/mvc=org.springframework.web.servlet.config.MvcNamespaceHandler, http://www.springframework.org/schema/util=org.springframework.beans.factory.xml.UtilNamespaceHandler, http://www.springframework.org/schema/jee=org.springframework.ejb.config.JeeNamespaceHandler, http://www.springframework.org/schema/aop=org.springframework.aop.config.AopNamespaceHandler, http://www.springframework.org/schema/jdbc=org.springframework.jdbc.config.JdbcNamespaceHandler, http://www.springframework.org/schema/cache=org.springframework.cache.config.CacheNamespaceHandler, http://www.springframework.org/schema/c=org.springframework.beans.factory.xml.SimpleConstructorNamespaceHandler, http://www.springframework.org/schema/tx=org.springframework.transaction.config.TxNamespaceHandler, http://www.springframework.org/schema/task=org.springframework.scheduling.config.TaskNamespaceHandler, http://www.springframework.org/schema/lang=org.springframework.scripting.config.LangNamespaceHandler, http://www.springframework.org/schema/context=org.springframework.context.config.ContextNamespaceHandler}
+2018-07-23 11:53:16 DEBUG XmlBeanDefinitionReader:223 - Loaded 6 bean definitions from location pattern [spring/spring.xml]
+2018-07-23 11:53:16  INFO XmlBeanDefinitionReader:316 - Loading XML bean definitions from class path resource [spring/spring-job.xml]
+2018-07-23 11:53:16 DEBUG DefaultDocumentLoader:73 - Using JAXP provider [com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderFactoryImpl]
+2018-07-23 11:53:16 DEBUG PluggableSchemaResolver:119 - Found XML schema [http://www.springframework.org/schema/beans/spring-beans-4.0.xsd] in classpath: org/springframework/beans/factory/xml/spring-beans-4.0.xsd
+2018-07-23 11:53:16 DEBUG DefaultBeanDefinitionDocumentReader:108 - Loading bean definitions
+2018-07-23 11:53:16 DEBUG XmlBeanDefinitionReader:223 - Loaded 7 bean definitions from location pattern [spring/spring-job.xml]
+2018-07-23 11:53:16 DEBUG ClassPathXmlApplicationContext:543 - Bean factory for org.springframework.context.support.ClassPathXmlApplicationContext@78a16e60: org.springframework.beans.factory.support.DefaultListableBeanFactory@5746e7cc: defining beans [org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,bankWithholdService,bankWithholdServiceHttp,taskJob,taskCreater,taskTrigger,clearFileTaskJob,taskCreater1,taskTrigger1,schdulerFactory]; root of factory hierarchy
+2018-07-23 11:53:16 DEBUG DefaultListableBeanFactory:220 - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+2018-07-23 11:53:16 DEBUG DefaultListableBeanFactory:449 - Creating instance of bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+2018-07-23 11:53:16 DEBUG DefaultListableBeanFactory:523 - Eagerly caching bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor' to allow for resolving potential circular references
+2018-07-23 11:53:16 DEBUG DefaultListableBeanFactory:477 - Finished creating instance of bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+2018-07-23 11:53:16 DEBUG DefaultListableBeanFactory:220 - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+2018-07-23 11:53:16 DEBUG DefaultListableBeanFactory:449 - Creating instance of bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+2018-07-23 11:53:16 DEBUG DefaultListableBeanFactory:523 - Eagerly caching bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor' to allow for resolving potential circular references
+2018-07-23 11:53:16 DEBUG DefaultListableBeanFactory:477 - Finished creating instance of bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+2018-07-23 11:53:16 DEBUG DefaultListableBeanFactory:220 - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalRequiredAnnotationProcessor'
+2018-07-23 11:53:16 DEBUG DefaultListableBeanFactory:449 - Creating instance of bean 'org.springframework.context.annotation.internalRequiredAnnotationProcessor'
+2018-07-23 11:53:16 DEBUG DefaultListableBeanFactory:523 - Eagerly caching bean 'org.springframework.context.annotation.internalRequiredAnnotationProcessor' to allow for resolving potential circular references
+2018-07-23 11:53:16 DEBUG DefaultListableBeanFactory:477 - Finished creating instance of bean 'org.springframework.context.annotation.internalRequiredAnnotationProcessor'
+2018-07-23 11:53:16 DEBUG DefaultListableBeanFactory:220 - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+2018-07-23 11:53:16 DEBUG DefaultListableBeanFactory:449 - Creating instance of bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+2018-07-23 11:53:16 DEBUG DefaultListableBeanFactory:523 - Eagerly caching bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor' to allow for resolving potential circular references
+2018-07-23 11:53:16 DEBUG DefaultListableBeanFactory:477 - Finished creating instance of bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+2018-07-23 11:53:16 DEBUG DefaultListableBeanFactory:220 - Creating shared instance of singleton bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor'
+2018-07-23 11:53:16 DEBUG DefaultListableBeanFactory:449 - Creating instance of bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor'
+2018-07-23 11:53:16 DEBUG DefaultListableBeanFactory:523 - Eagerly caching bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor' to allow for resolving potential circular references
+2018-07-23 11:53:16 DEBUG DefaultListableBeanFactory:477 - Finished creating instance of bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor'
+2018-07-23 11:53:16 DEBUG DefaultListableBeanFactory:220 - Creating shared instance of singleton bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor.enhancedConfigurationProcessor'
+2018-07-23 11:53:16 DEBUG DefaultListableBeanFactory:449 - Creating instance of bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor.enhancedConfigurationProcessor'
+2018-07-23 11:53:16 DEBUG DefaultListableBeanFactory:523 - Eagerly caching bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor.enhancedConfigurationProcessor' to allow for resolving potential circular references
+2018-07-23 11:53:16 DEBUG DefaultListableBeanFactory:477 - Finished creating instance of bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor.enhancedConfigurationProcessor'
+2018-07-23 11:53:16 DEBUG ClassPathXmlApplicationContext:649 - Unable to locate MessageSource with name 'messageSource': using default [org.springframework.context.support.DelegatingMessageSource@3f9e244f]
+2018-07-23 11:53:16 DEBUG ClassPathXmlApplicationContext:673 - Unable to locate ApplicationEventMulticaster with name 'applicationEventMulticaster': using default [org.springframework.context.event.SimpleApplicationEventMulticaster@2fed6d94]
+2018-07-23 11:53:16 DEBUG DefaultListableBeanFactory:672 - Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@5746e7cc: defining beans [org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,bankWithholdService,bankWithholdServiceHttp,taskJob,taskCreater,taskTrigger,clearFileTaskJob,taskCreater1,taskTrigger1,schdulerFactory,org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor,org.springframework.context.annotation.ConfigurationClassPostProcessor.enhancedConfigurationProcessor]; root of factory hierarchy
+2018-07-23 11:53:16 DEBUG DefaultListableBeanFactory:249 - Returning cached instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+2018-07-23 11:53:16 DEBUG DefaultListableBeanFactory:249 - Returning cached instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+2018-07-23 11:53:16 DEBUG DefaultListableBeanFactory:249 - Returning cached instance of singleton bean 'org.springframework.context.annotation.internalRequiredAnnotationProcessor'
+2018-07-23 11:53:16 DEBUG DefaultListableBeanFactory:249 - Returning cached instance of singleton bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+2018-07-23 11:53:16 DEBUG DefaultListableBeanFactory:220 - Creating shared instance of singleton bean 'bankWithholdService'
+2018-07-23 11:53:16 DEBUG DefaultListableBeanFactory:449 - Creating instance of bean 'bankWithholdService'
+2018-07-23 11:53:16 DEBUG DefaultListableBeanFactory:523 - Eagerly caching bean 'bankWithholdService' to allow for resolving potential circular references
+2018-07-23 11:53:16 DEBUG DefaultListableBeanFactory:220 - Creating shared instance of singleton bean 'bankWithholdServiceHttp'
+2018-07-23 11:53:16 DEBUG DefaultListableBeanFactory:449 - Creating instance of bean 'bankWithholdServiceHttp'
+2018-07-23 11:53:16 DEBUG DefaultListableBeanFactory:523 - Eagerly caching bean 'bankWithholdServiceHttp' to allow for resolving potential circular references
+2018-07-23 11:53:16 DEBUG DefaultListableBeanFactory:477 - Finished creating instance of bean 'bankWithholdServiceHttp'
+2018-07-23 11:53:16 DEBUG DefaultListableBeanFactory:477 - Finished creating instance of bean 'bankWithholdService'
+2018-07-23 11:53:16 DEBUG DefaultListableBeanFactory:249 - Returning cached instance of singleton bean 'bankWithholdServiceHttp'
+2018-07-23 11:53:16 DEBUG DefaultListableBeanFactory:220 - Creating shared instance of singleton bean 'taskCreater'
+2018-07-23 11:53:16 DEBUG DefaultListableBeanFactory:449 - Creating instance of bean 'taskCreater'
+2018-07-23 11:53:16 DEBUG DefaultListableBeanFactory:523 - Eagerly caching bean 'taskCreater' to allow for resolving potential circular references
+2018-07-23 11:53:16 DEBUG DefaultListableBeanFactory:449 - Creating instance of bean 'taskJob'
+2018-07-23 11:53:16 DEBUG DefaultListableBeanFactory:477 - Finished creating instance of bean 'taskJob'
+2018-07-23 11:53:16 DEBUG DefaultListableBeanFactory:1595 - Invoking afterPropertiesSet() on bean with name 'taskCreater'
+2018-07-23 11:53:16 DEBUG DefaultListableBeanFactory:477 - Finished creating instance of bean 'taskCreater'
+2018-07-23 11:53:16 DEBUG DefaultListableBeanFactory:220 - Creating shared instance of singleton bean 'taskTrigger'
+2018-07-23 11:53:16 DEBUG DefaultListableBeanFactory:449 - Creating instance of bean 'taskTrigger'
+2018-07-23 11:53:16 DEBUG DefaultListableBeanFactory:523 - Eagerly caching bean 'taskTrigger' to allow for resolving potential circular references
+2018-07-23 11:53:16 DEBUG DefaultListableBeanFactory:249 - Returning cached instance of singleton bean 'taskCreater'
+2018-07-23 11:53:16 DEBUG DefaultListableBeanFactory:1595 - Invoking afterPropertiesSet() on bean with name 'taskTrigger'
+2018-07-23 11:53:17 DEBUG DefaultListableBeanFactory:477 - Finished creating instance of bean 'taskTrigger'
+2018-07-23 11:53:17 DEBUG DefaultListableBeanFactory:220 - Creating shared instance of singleton bean 'taskCreater1'
+2018-07-23 11:53:17 DEBUG DefaultListableBeanFactory:449 - Creating instance of bean 'taskCreater1'
+2018-07-23 11:53:17 DEBUG DefaultListableBeanFactory:523 - Eagerly caching bean 'taskCreater1' to allow for resolving potential circular references
+2018-07-23 11:53:17 DEBUG DefaultListableBeanFactory:449 - Creating instance of bean 'clearFileTaskJob'
+2018-07-23 11:53:17 DEBUG DefaultListableBeanFactory:477 - Finished creating instance of bean 'clearFileTaskJob'
+2018-07-23 11:53:17 DEBUG DefaultListableBeanFactory:1595 - Invoking afterPropertiesSet() on bean with name 'taskCreater1'
+2018-07-23 11:53:17 DEBUG DefaultListableBeanFactory:477 - Finished creating instance of bean 'taskCreater1'
+2018-07-23 11:53:17 DEBUG DefaultListableBeanFactory:220 - Creating shared instance of singleton bean 'taskTrigger1'
+2018-07-23 11:53:17 DEBUG DefaultListableBeanFactory:449 - Creating instance of bean 'taskTrigger1'
+2018-07-23 11:53:17 DEBUG DefaultListableBeanFactory:523 - Eagerly caching bean 'taskTrigger1' to allow for resolving potential circular references
+2018-07-23 11:53:17 DEBUG DefaultListableBeanFactory:249 - Returning cached instance of singleton bean 'taskCreater1'
+2018-07-23 11:53:17 DEBUG DefaultListableBeanFactory:1595 - Invoking afterPropertiesSet() on bean with name 'taskTrigger1'
+2018-07-23 11:53:17 DEBUG DefaultListableBeanFactory:477 - Finished creating instance of bean 'taskTrigger1'
+2018-07-23 11:53:17 DEBUG DefaultListableBeanFactory:220 - Creating shared instance of singleton bean 'schdulerFactory'
+2018-07-23 11:53:17 DEBUG DefaultListableBeanFactory:449 - Creating instance of bean 'schdulerFactory'
+2018-07-23 11:53:17 DEBUG DefaultListableBeanFactory:523 - Eagerly caching bean 'schdulerFactory' to allow for resolving potential circular references
+2018-07-23 11:53:17 DEBUG DefaultListableBeanFactory:249 - Returning cached instance of singleton bean 'taskTrigger'
+2018-07-23 11:53:17 DEBUG DefaultListableBeanFactory:1595 - Invoking afterPropertiesSet() on bean with name 'schdulerFactory'
+2018-07-23 11:53:17  INFO StdSchedulerFactory:1172 - Using default implementation for ThreadExecutor
+2018-07-23 11:53:17  INFO SchedulerSignalerImpl:61 - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2018-07-23 11:53:17  INFO QuartzScheduler:240 - Quartz Scheduler v.2.2.3 created.
+2018-07-23 11:53:17  INFO RAMJobStore:155 - RAMJobStore initialized.
+2018-07-23 11:53:17  INFO QuartzScheduler:305 - Scheduler meta-data: Quartz Scheduler (v2.2.3) 'schdulerFactory' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2018-07-23 11:53:17  INFO StdSchedulerFactory:1327 - Quartz scheduler 'schdulerFactory' initialized from an externally provided properties instance.
+2018-07-23 11:53:17  INFO StdSchedulerFactory:1331 - Quartz scheduler version: 2.2.3
+2018-07-23 11:53:17  INFO QuartzScheduler:2311 - JobFactory set to: org.springframework.scheduling.quartz.AdaptableJobFactory@3cfcde5a
+2018-07-23 11:53:17 DEBUG DefaultListableBeanFactory:477 - Finished creating instance of bean 'schdulerFactory'
+2018-07-23 11:53:17 DEBUG DefaultListableBeanFactory:249 - Returning cached instance of singleton bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor'
+2018-07-23 11:53:17 DEBUG DefaultListableBeanFactory:249 - Returning cached instance of singleton bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor.enhancedConfigurationProcessor'
+2018-07-23 11:53:17 DEBUG ClassPathXmlApplicationContext:700 - Unable to locate LifecycleProcessor with name 'lifecycleProcessor': using default [org.springframework.context.support.DefaultLifecycleProcessor@7bcfceb7]
+2018-07-23 11:53:17 DEBUG DefaultListableBeanFactory:249 - Returning cached instance of singleton bean 'schdulerFactory'
+2018-07-23 11:53:17 DEBUG DefaultListableBeanFactory:249 - Returning cached instance of singleton bean 'lifecycleProcessor'
+2018-07-23 11:53:17  INFO DefaultLifecycleProcessor:341 - Starting beans in phase 2147483647
+2018-07-23 11:53:17 DEBUG DefaultLifecycleProcessor:170 - Starting bean 'schdulerFactory' of type [class org.springframework.scheduling.quartz.SchedulerFactoryBean]
+2018-07-23 11:53:17  INFO SchedulerFactoryBean:649 - Starting Quartz Scheduler now
+2018-07-23 11:53:17  INFO QuartzScheduler:575 - Scheduler schdulerFactory_$_NON_CLUSTERED started.
+2018-07-23 11:53:17 DEBUG DefaultLifecycleProcessor:179 - Successfully started bean 'schdulerFactory'
+2018-07-23 11:53:17 DEBUG PropertySourcesPropertyResolver:81 - Searching for key 'spring.liveBeansView.mbeanDomain' in [systemProperties]
+2018-07-23 11:53:17 DEBUG PropertySourcesPropertyResolver:81 - Searching for key 'spring.liveBeansView.mbeanDomain' in [systemEnvironment]
+2018-07-23 11:53:17 DEBUG PropertySourcesPropertyResolver:103 - Could not find key 'spring.liveBeansView.mbeanDomain' in any property source. Returning [null]
+2018-07-23 11:53:17 DEBUG InternalLoggerFactory:71 - Using SLF4J as the default logging framework
+2018-07-23 11:53:17 DEBUG PlatformDependent:71 - Platform: Windows
+2018-07-23 11:53:17 DEBUG PlatformDependent0:76 - -Dio.netty.noUnsafe: false
+2018-07-23 11:53:17 DEBUG PlatformDependent0:76 - Java version: 7
+2018-07-23 11:53:17 DEBUG PlatformDependent0:71 - sun.misc.Unsafe.theUnsafe: available
+2018-07-23 11:53:17 DEBUG PlatformDependent0:71 - sun.misc.Unsafe.copyMemory: available
+2018-07-23 11:53:17 DEBUG PlatformDependent0:71 - java.nio.Buffer.address: available
+2018-07-23 11:53:17 DEBUG PlatformDependent0:71 - direct buffer constructor: available
+2018-07-23 11:53:17 DEBUG PlatformDependent0:76 - java.nio.Bits.unaligned: available, true
+2018-07-23 11:53:17 DEBUG PlatformDependent0:71 - jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable prior to Java9
+2018-07-23 11:53:17 DEBUG PlatformDependent0:76 - java.nio.DirectByteBuffer.<init>(long, int): available
+2018-07-23 11:53:17 DEBUG PlatformDependent:76 - sun.misc.Unsafe: available
+2018-07-23 11:53:17 DEBUG PlatformDependent:76 - -Dio.netty.tmpdir: C:\Users\ADMINI~1\AppData\Local\Temp (java.io.tmpdir)
+2018-07-23 11:53:17 DEBUG PlatformDependent:76 - -Dio.netty.bitMode: 64 (sun.arch.data.model)
+2018-07-23 11:53:17 DEBUG PlatformDependent:76 - -Dio.netty.noPreferDirect: false
+2018-07-23 11:53:17 DEBUG PlatformDependent:76 - -Dio.netty.maxDirectMemory: 1882718208 bytes
+2018-07-23 11:53:17 DEBUG PlatformDependent:76 - -Dio.netty.uninitializedArrayAllocationThreshold: -1
+2018-07-23 11:53:17 DEBUG CleanerJava6:71 - java.nio.ByteBuffer.cleaner(): available
+2018-07-23 11:53:17  INFO HttpRequestUtil:238 - {"data":"QmkJwJlMPUCvvXZs8djVFT6R5cOZdHcUJv2SauWbn5xk791wIX4Rfthbk7lQEuRRm+N1kIOZNvplAkyK\/TTZ\/cVt7zrgQQQSG1ixiHC\/JWqxN5IkDIqZsELb2ykh5fjJsvmYspaf4nraswM7xIazRNEJyWF0Qq\/q+i+TGg423c5o\/SnXcz4zxdo\/JpoyXivd","msg":"请求成功","operatorId":"330414214","ret":0,"sig":"86612B6519B0BDE59F3ACA3BF96666C4"}
+
+2018-07-23 11:53:17  INFO MainServer:42 - token初始化成功:45af6bb54ca94ca280d4f4353190be66
+2018-07-23 11:53:17 DEBUG MultithreadEventLoopGroup:76 - -Dio.netty.eventLoopThreads: 4
+2018-07-23 11:53:17 DEBUG NioEventLoop:76 - -Dio.netty.noKeySetOptimization: false
+2018-07-23 11:53:17 DEBUG NioEventLoop:76 - -Dio.netty.selectorAutoRebuildThreshold: 512
+2018-07-23 11:53:17 DEBUG PlatformDependent:71 - org.jctools-core.MpscChunkedArrayQueue: available
+2018-07-23 11:53:17 DEBUG DefaultChannelId:76 - -Dio.netty.processId: 9360 (auto-detected)
+2018-07-23 11:53:17 DEBUG NetUtil:76 - -Djava.net.preferIPv4Stack: false
+2018-07-23 11:53:17 DEBUG NetUtil:76 - -Djava.net.preferIPv6Addresses: false
+2018-07-23 11:53:17 DEBUG NetUtil:86 - Loopback interface: lo (Software Loopback Interface 1, 127.0.0.1)
+2018-07-23 11:53:17 DEBUG NetUtil:81 - Failed to get SOMAXCONN from sysctl and file \proc\sys\net\core\somaxconn. Default: 200
+2018-07-23 11:53:17 DEBUG DefaultChannelId:76 - -Dio.netty.machineId: 00:00:00:00:00:00:00:e0 (auto-detected)
+2018-07-23 11:53:17 DEBUG InternalThreadLocalMap:76 - -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+2018-07-23 11:53:17 DEBUG InternalThreadLocalMap:76 - -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+2018-07-23 11:53:17 DEBUG ResourceLeakDetector:81 - -Dio.netty.leakDetection.level: simple
+2018-07-23 11:53:17 DEBUG ResourceLeakDetector:81 - -Dio.netty.leakDetection.targetRecords: 4
+2018-07-23 11:53:17 DEBUG PooledByteBufAllocator:76 - -Dio.netty.allocator.numHeapArenas: 4
+2018-07-23 11:53:17 DEBUG PooledByteBufAllocator:76 - -Dio.netty.allocator.numDirectArenas: 4
+2018-07-23 11:53:17 DEBUG PooledByteBufAllocator:76 - -Dio.netty.allocator.pageSize: 8192
+2018-07-23 11:53:17 DEBUG PooledByteBufAllocator:76 - -Dio.netty.allocator.maxOrder: 11
+2018-07-23 11:53:17 DEBUG PooledByteBufAllocator:76 - -Dio.netty.allocator.chunkSize: 16777216
+2018-07-23 11:53:17 DEBUG PooledByteBufAllocator:76 - -Dio.netty.allocator.tinyCacheSize: 512
+2018-07-23 11:53:17 DEBUG PooledByteBufAllocator:76 - -Dio.netty.allocator.smallCacheSize: 256
+2018-07-23 11:53:17 DEBUG PooledByteBufAllocator:76 - -Dio.netty.allocator.normalCacheSize: 64
+2018-07-23 11:53:17 DEBUG PooledByteBufAllocator:76 - -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+2018-07-23 11:53:17 DEBUG PooledByteBufAllocator:76 - -Dio.netty.allocator.cacheTrimInterval: 8192
+2018-07-23 11:53:17 DEBUG PooledByteBufAllocator:76 - -Dio.netty.allocator.useCacheForAllThreads: true
+2018-07-23 11:53:17 DEBUG ByteBufUtil:76 - -Dio.netty.allocator.type: pooled
+2018-07-23 11:53:17 DEBUG ByteBufUtil:76 - -Dio.netty.threadLocalDirectBufferSize: 0
+2018-07-23 11:53:17 DEBUG ByteBufUtil:76 - -Dio.netty.maxThreadLocalCharBufferSize: 16384
+2018-07-23 11:53:17  INFO LoggingHandler:101 - [id: 0x1074f78b] REGISTERED
+2018-07-23 11:53:17  INFO LoggingHandler:101 - [id: 0x1074f78b] BIND: /121.1.3.30:7803
+2018-07-23 11:53:17  INFO LoggingHandler:101 - [id: 0x1074f78b, L:/121.1.3.30:7803] ACTIVE

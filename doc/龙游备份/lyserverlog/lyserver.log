@@ -1,0 +1,288 @@
+2018-09-04 07:48:29  INFO LoggingHandler:101 - [id: 0xd613334f, L:/121.1.3.30:7803] READ: [id: 0x15c0c099, L:/121.1.3.30:7803 - R:/133.1.1.68:2409]
+2018-09-04 07:48:29  INFO LoggingHandler:101 - [id: 0xd613334f, L:/121.1.3.30:7803] READ COMPLETE
+2018-09-04 07:48:29 DEBUG DefaultListableBeanFactory:249 - Returning cached instance of singleton bean 'bankWithholdService'
+2018-09-04 07:48:29  INFO TcpHandler:58 - TcpHandlerInit.....
+2018-09-04 07:48:29  INFO TcpHandler:64 - 建立联接15c0c099 地址：133.1.1.68 端口：2409已连接
+2018-09-04 07:48:29 DEBUG Recycler:76 - -Dio.netty.recycler.maxCapacityPerThread: 4096
+2018-09-04 07:48:29 DEBUG Recycler:76 - -Dio.netty.recycler.maxSharedCapacityFactor: 2
+2018-09-04 07:48:29 DEBUG Recycler:76 - -Dio.netty.recycler.linkCapacity: 16
+2018-09-04 07:48:29 DEBUG Recycler:76 - -Dio.netty.recycler.ratio: 8
+2018-09-04 07:48:29 DEBUG AbstractByteBuf:81 - -Dio.netty.buffer.bytebuf.checkAccessible: true
+2018-09-04 07:48:29 DEBUG ResourceLeakDetectorFactory:76 - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@1ff7d2dc
+2018-09-04 07:48:29  INFO TcpHandler:109 - 接收 <15c0c099>SDB
+2018-09-04 07:48:29  INFO TcpHandler:117 - 发送 <15c0c099>ADR
+2018-09-04 07:48:29  INFO TcpHandler:120 - 接收 <15c0c099>000001        71                                  
+2018-09-04 07:48:30  INFO TcpHandler:136 - 接收 <15c0c099>07021||16543002||6228580899022655868|||||||||||||||2018-09-04|||lxzls||
+2018-09-04 07:48:30  INFO Job:53 - 代扣用户登记交易正在进行。。。
+2018-09-04 07:48:30  INFO HttpRequestUtil:238 - {"data":"ZOb0\/v3VybFEvp7CPmrc8LjFccTqKw+dKl09qvNqZ4FJ\/HkK+yC7gotr0TB3TPhnu0nqFrOX0eRFZmOJ+vfB1A9VBzs1EFKJhNWEvDTtfZMG+alNNy8eMKBJvfAJpkaKxESaj8qnTBUlEUruVLeB3eCuI8mboNBdIzhVWjzr7gDDkkisWjvlKTQkJLw68E0Yd5YX3YgiO2cjPi6wGvvmUNOahhroD4SJJO1\/E8dwKuMkgpHg2tShkCDVnDhWtiT7EQrqQvPNgRob2Uxhf7PN1LQTHoqsDz2KFP9mmWxnyxybrP1C29OUN8fnom\/TatWe\/d2166HdTx\/0RTFj5BXZRWUBIV3DCWiclV2HIx\/zZZU=","msg":"请求成功","operatorId":"330414214","ret":0,"sig":"7BF5DA83ADBDC13A58D543040CF7F6D7"}
+
+2018-09-04 07:48:30 DEBUG BooleanConverter:336 - Setting default value: false
+2018-09-04 07:48:30 DEBUG BooleanConverter:127 - Converting 'Boolean' value 'false' to type 'Boolean'
+2018-09-04 07:48:30 DEBUG BooleanConverter:149 -     No conversion required, value is already a Boolean
+2018-09-04 07:48:30 DEBUG ByteConverter:336 - Setting default value: 0
+2018-09-04 07:48:30 DEBUG ByteConverter:127 - Converting 'Integer' value '0' to type 'Byte'
+2018-09-04 07:48:30 DEBUG ByteConverter:158 -     Converted to Byte value '0'
+2018-09-04 07:48:30 DEBUG CharacterConverter:336 - Setting default value:  
+2018-09-04 07:48:30 DEBUG CharacterConverter:127 - Converting 'Character' value ' ' to type 'Character'
+2018-09-04 07:48:30 DEBUG CharacterConverter:149 -     No conversion required, value is already a Character
+2018-09-04 07:48:30 DEBUG DoubleConverter:336 - Setting default value: 0
+2018-09-04 07:48:30 DEBUG DoubleConverter:127 - Converting 'Integer' value '0' to type 'Double'
+2018-09-04 07:48:30 DEBUG DoubleConverter:158 -     Converted to Double value '0.0'
+2018-09-04 07:48:30 DEBUG FloatConverter:336 - Setting default value: 0
+2018-09-04 07:48:30 DEBUG FloatConverter:127 - Converting 'Integer' value '0' to type 'Float'
+2018-09-04 07:48:30 DEBUG FloatConverter:158 -     Converted to Float value '0.0'
+2018-09-04 07:48:30 DEBUG IntegerConverter:336 - Setting default value: 0
+2018-09-04 07:48:30 DEBUG IntegerConverter:127 - Converting 'Integer' value '0' to type 'Integer'
+2018-09-04 07:48:30 DEBUG IntegerConverter:149 -     No conversion required, value is already a Integer
+2018-09-04 07:48:30 DEBUG LongConverter:336 - Setting default value: 0
+2018-09-04 07:48:30 DEBUG LongConverter:127 - Converting 'Integer' value '0' to type 'Long'
+2018-09-04 07:48:30 DEBUG LongConverter:158 -     Converted to Long value '0'
+2018-09-04 07:48:30 DEBUG ShortConverter:336 - Setting default value: 0
+2018-09-04 07:48:30 DEBUG ShortConverter:127 - Converting 'Integer' value '0' to type 'Short'
+2018-09-04 07:48:30 DEBUG ShortConverter:158 -     Converted to Short value '0'
+2018-09-04 07:48:30 DEBUG BigDecimalConverter:336 - Setting default value: 0.0
+2018-09-04 07:48:30 DEBUG BigDecimalConverter:127 - Converting 'BigDecimal' value '0.0' to type 'BigDecimal'
+2018-09-04 07:48:30 DEBUG BigDecimalConverter:149 -     No conversion required, value is already a BigDecimal
+2018-09-04 07:48:30 DEBUG BigIntegerConverter:336 - Setting default value: 0
+2018-09-04 07:48:30 DEBUG BigIntegerConverter:127 - Converting 'BigInteger' value '0' to type 'BigInteger'
+2018-09-04 07:48:30 DEBUG BigIntegerConverter:149 -     No conversion required, value is already a BigInteger
+2018-09-04 07:48:30 DEBUG BooleanConverter:336 - Setting default value: false
+2018-09-04 07:48:30 DEBUG BooleanConverter:127 - Converting 'Boolean' value 'false' to type 'Boolean'
+2018-09-04 07:48:30 DEBUG BooleanConverter:149 -     No conversion required, value is already a Boolean
+2018-09-04 07:48:30 DEBUG ByteConverter:336 - Setting default value: 0
+2018-09-04 07:48:30 DEBUG ByteConverter:127 - Converting 'Integer' value '0' to type 'Byte'
+2018-09-04 07:48:30 DEBUG ByteConverter:158 -     Converted to Byte value '0'
+2018-09-04 07:48:30 DEBUG CharacterConverter:336 - Setting default value:  
+2018-09-04 07:48:30 DEBUG CharacterConverter:127 - Converting 'Character' value ' ' to type 'Character'
+2018-09-04 07:48:30 DEBUG CharacterConverter:149 -     No conversion required, value is already a Character
+2018-09-04 07:48:30 DEBUG DoubleConverter:336 - Setting default value: 0
+2018-09-04 07:48:30 DEBUG DoubleConverter:127 - Converting 'Integer' value '0' to type 'Double'
+2018-09-04 07:48:30 DEBUG DoubleConverter:158 -     Converted to Double value '0.0'
+2018-09-04 07:48:30 DEBUG FloatConverter:336 - Setting default value: 0
+2018-09-04 07:48:30 DEBUG FloatConverter:127 - Converting 'Integer' value '0' to type 'Float'
+2018-09-04 07:48:30 DEBUG FloatConverter:158 -     Converted to Float value '0.0'
+2018-09-04 07:48:30 DEBUG IntegerConverter:336 - Setting default value: 0
+2018-09-04 07:48:30 DEBUG IntegerConverter:127 - Converting 'Integer' value '0' to type 'Integer'
+2018-09-04 07:48:30 DEBUG IntegerConverter:149 -     No conversion required, value is already a Integer
+2018-09-04 07:48:30 DEBUG LongConverter:336 - Setting default value: 0
+2018-09-04 07:48:30 DEBUG LongConverter:127 - Converting 'Integer' value '0' to type 'Long'
+2018-09-04 07:48:30 DEBUG LongConverter:158 -     Converted to Long value '0'
+2018-09-04 07:48:30 DEBUG ShortConverter:336 - Setting default value: 0
+2018-09-04 07:48:30 DEBUG ShortConverter:127 - Converting 'Integer' value '0' to type 'Short'
+2018-09-04 07:48:30 DEBUG ShortConverter:158 -     Converted to Short value '0'
+2018-09-04 07:48:30 DEBUG StringConverter:336 - Setting default value: 
+2018-09-04 07:48:30 DEBUG StringConverter:127 - Converting 'String' value '' to type 'String'
+2018-09-04 07:48:30 DEBUG ArrayConverter:336 - Setting default value: [Z@422760db
+2018-09-04 07:48:30 DEBUG ArrayConverter:127 - Converting 'boolean[]' value '[Z@422760db' to type 'boolean[]'
+2018-09-04 07:48:30 DEBUG ArrayConverter:149 -     No conversion required, value is already a boolean[]
+2018-09-04 07:48:30 DEBUG ArrayConverter:336 - Setting default value: [B@2747ebcb
+2018-09-04 07:48:30 DEBUG ArrayConverter:127 - Converting 'byte[]' value '[B@2747ebcb' to type 'byte[]'
+2018-09-04 07:48:30 DEBUG ArrayConverter:149 -     No conversion required, value is already a byte[]
+2018-09-04 07:48:30 DEBUG ArrayConverter:336 - Setting default value: [C@62c97092
+2018-09-04 07:48:30 DEBUG ArrayConverter:127 - Converting 'char[]' value '[C@62c97092' to type 'char[]'
+2018-09-04 07:48:30 DEBUG ArrayConverter:149 -     No conversion required, value is already a char[]
+2018-09-04 07:48:30 DEBUG ArrayConverter:336 - Setting default value: [D@16fdb3e9
+2018-09-04 07:48:30 DEBUG ArrayConverter:127 - Converting 'double[]' value '[D@16fdb3e9' to type 'double[]'
+2018-09-04 07:48:30 DEBUG ArrayConverter:149 -     No conversion required, value is already a double[]
+2018-09-04 07:48:30 DEBUG ArrayConverter:336 - Setting default value: [F@6a2e91c9
+2018-09-04 07:48:30 DEBUG ArrayConverter:127 - Converting 'float[]' value '[F@6a2e91c9' to type 'float[]'
+2018-09-04 07:48:30 DEBUG ArrayConverter:149 -     No conversion required, value is already a float[]
+2018-09-04 07:48:30 DEBUG ArrayConverter:336 - Setting default value: [I@17655995
+2018-09-04 07:48:30 DEBUG ArrayConverter:127 - Converting 'int[]' value '[I@17655995' to type 'int[]'
+2018-09-04 07:48:30 DEBUG ArrayConverter:149 -     No conversion required, value is already a int[]
+2018-09-04 07:48:30 DEBUG ArrayConverter:336 - Setting default value: [J@7edc5132
+2018-09-04 07:48:30 DEBUG ArrayConverter:127 - Converting 'long[]' value '[J@7edc5132' to type 'long[]'
+2018-09-04 07:48:30 DEBUG ArrayConverter:149 -     No conversion required, value is already a long[]
+2018-09-04 07:48:30 DEBUG ArrayConverter:336 - Setting default value: [S@3256eaaf
+2018-09-04 07:48:30 DEBUG ArrayConverter:127 - Converting 'short[]' value '[S@3256eaaf' to type 'short[]'
+2018-09-04 07:48:30 DEBUG ArrayConverter:149 -     No conversion required, value is already a short[]
+2018-09-04 07:48:30 DEBUG ArrayConverter:336 - Setting default value: [Ljava.math.BigDecimal;@6849a0fa
+2018-09-04 07:48:30 DEBUG ArrayConverter:127 - Converting 'BigDecimal[]' value '[Ljava.math.BigDecimal;@6849a0fa' to type 'BigDecimal[]'
+2018-09-04 07:48:30 DEBUG ArrayConverter:149 -     No conversion required, value is already a BigDecimal[]
+2018-09-04 07:48:30 DEBUG ArrayConverter:336 - Setting default value: [Ljava.math.BigInteger;@39e7b293
+2018-09-04 07:48:30 DEBUG ArrayConverter:127 - Converting 'BigInteger[]' value '[Ljava.math.BigInteger;@39e7b293' to type 'BigInteger[]'
+2018-09-04 07:48:30 DEBUG ArrayConverter:149 -     No conversion required, value is already a BigInteger[]
+2018-09-04 07:48:30 DEBUG ArrayConverter:336 - Setting default value: [Ljava.lang.Boolean;@1a7cee98
+2018-09-04 07:48:30 DEBUG ArrayConverter:127 - Converting 'Boolean[]' value '[Ljava.lang.Boolean;@1a7cee98' to type 'Boolean[]'
+2018-09-04 07:48:30 DEBUG ArrayConverter:149 -     No conversion required, value is already a Boolean[]
+2018-09-04 07:48:30 DEBUG ArrayConverter:336 - Setting default value: [Ljava.lang.Byte;@144abe
+2018-09-04 07:48:30 DEBUG ArrayConverter:127 - Converting 'Byte[]' value '[Ljava.lang.Byte;@144abe' to type 'Byte[]'
+2018-09-04 07:48:30 DEBUG ArrayConverter:149 -     No conversion required, value is already a Byte[]
+2018-09-04 07:48:30 DEBUG ArrayConverter:336 - Setting default value: [Ljava.lang.Character;@3436fffc
+2018-09-04 07:48:30 DEBUG ArrayConverter:127 - Converting 'Character[]' value '[Ljava.lang.Character;@3436fffc' to type 'Character[]'
+2018-09-04 07:48:30 DEBUG ArrayConverter:149 -     No conversion required, value is already a Character[]
+2018-09-04 07:48:30 DEBUG ArrayConverter:336 - Setting default value: [Ljava.lang.Double;@6e0142c
+2018-09-04 07:48:30 DEBUG ArrayConverter:127 - Converting 'Double[]' value '[Ljava.lang.Double;@6e0142c' to type 'Double[]'
+2018-09-04 07:48:30 DEBUG ArrayConverter:149 -     No conversion required, value is already a Double[]
+2018-09-04 07:48:30 DEBUG ArrayConverter:336 - Setting default value: [Ljava.lang.Float;@614c583a
+2018-09-04 07:48:30 DEBUG ArrayConverter:127 - Converting 'Float[]' value '[Ljava.lang.Float;@614c583a' to type 'Float[]'
+2018-09-04 07:48:30 DEBUG ArrayConverter:149 -     No conversion required, value is already a Float[]
+2018-09-04 07:48:30 DEBUG ArrayConverter:336 - Setting default value: [Ljava.lang.Integer;@5b3479bd
+2018-09-04 07:48:30 DEBUG ArrayConverter:127 - Converting 'Integer[]' value '[Ljava.lang.Integer;@5b3479bd' to type 'Integer[]'
+2018-09-04 07:48:30 DEBUG ArrayConverter:149 -     No conversion required, value is already a Integer[]
+2018-09-04 07:48:30 DEBUG ArrayConverter:336 - Setting default value: [Ljava.lang.Long;@52249612
+2018-09-04 07:48:30 DEBUG ArrayConverter:127 - Converting 'Long[]' value '[Ljava.lang.Long;@52249612' to type 'Long[]'
+2018-09-04 07:48:30 DEBUG ArrayConverter:149 -     No conversion required, value is already a Long[]
+2018-09-04 07:48:30 DEBUG ArrayConverter:336 - Setting default value: [Ljava.lang.Short;@5ff8a1df
+2018-09-04 07:48:30 DEBUG ArrayConverter:127 - Converting 'Short[]' value '[Ljava.lang.Short;@5ff8a1df' to type 'Short[]'
+2018-09-04 07:48:30 DEBUG ArrayConverter:149 -     No conversion required, value is already a Short[]
+2018-09-04 07:48:30 DEBUG ArrayConverter:336 - Setting default value: [Ljava.lang.String;@3c4b68b2
+2018-09-04 07:48:30 DEBUG ArrayConverter:127 - Converting 'String[]' value '[Ljava.lang.String;@3c4b68b2' to type 'String[]'
+2018-09-04 07:48:30 DEBUG ArrayConverter:149 -     No conversion required, value is already a String[]
+2018-09-04 07:48:30 DEBUG ArrayConverter:336 - Setting default value: [Ljava.lang.Class;@7ac69d0a
+2018-09-04 07:48:30 DEBUG ArrayConverter:127 - Converting 'Class[]' value '[Ljava.lang.Class;@7ac69d0a' to type 'Class[]'
+2018-09-04 07:48:30 DEBUG ArrayConverter:149 -     No conversion required, value is already a Class[]
+2018-09-04 07:48:30 DEBUG ArrayConverter:336 - Setting default value: [Ljava.util.Date;@b106aa3
+2018-09-04 07:48:30 DEBUG ArrayConverter:127 - Converting 'Date[]' value '[Ljava.util.Date;@b106aa3' to type 'Date[]'
+2018-09-04 07:48:30 DEBUG ArrayConverter:149 -     No conversion required, value is already a Date[]
+2018-09-04 07:48:30 DEBUG ArrayConverter:336 - Setting default value: [Ljava.util.Calendar;@4b71188e
+2018-09-04 07:48:30 DEBUG ArrayConverter:127 - Converting 'Calendar[]' value '[Ljava.util.Calendar;@4b71188e' to type 'Calendar[]'
+2018-09-04 07:48:30 DEBUG ArrayConverter:149 -     No conversion required, value is already a Calendar[]
+2018-09-04 07:48:30 DEBUG ArrayConverter:336 - Setting default value: [Ljava.io.File;@15a8b092
+2018-09-04 07:48:30 DEBUG ArrayConverter:127 - Converting 'java.io.File[]' value '[Ljava.io.File;@15a8b092' to type 'java.io.File[]'
+2018-09-04 07:48:30 DEBUG ArrayConverter:149 -     No conversion required, value is already a java.io.File[]
+2018-09-04 07:48:30 DEBUG ArrayConverter:336 - Setting default value: [Ljava.sql.Date;@3b5b5c9b
+2018-09-04 07:48:30 DEBUG ArrayConverter:127 - Converting 'java.sql.Date[]' value '[Ljava.sql.Date;@3b5b5c9b' to type 'java.sql.Date[]'
+2018-09-04 07:48:30 DEBUG ArrayConverter:149 -     No conversion required, value is already a java.sql.Date[]
+2018-09-04 07:48:30 DEBUG ArrayConverter:336 - Setting default value: [Ljava.sql.Time;@3250559d
+2018-09-04 07:48:30 DEBUG ArrayConverter:127 - Converting 'java.sql.Time[]' value '[Ljava.sql.Time;@3250559d' to type 'java.sql.Time[]'
+2018-09-04 07:48:30 DEBUG ArrayConverter:149 -     No conversion required, value is already a java.sql.Time[]
+2018-09-04 07:48:30 DEBUG ArrayConverter:336 - Setting default value: [Ljava.sql.Timestamp;@58dd8116
+2018-09-04 07:48:30 DEBUG ArrayConverter:127 - Converting 'java.sql.Timestamp[]' value '[Ljava.sql.Timestamp;@58dd8116' to type 'java.sql.Timestamp[]'
+2018-09-04 07:48:30 DEBUG ArrayConverter:149 -     No conversion required, value is already a java.sql.Timestamp[]
+2018-09-04 07:48:30 DEBUG ArrayConverter:336 - Setting default value: [Ljava.net.URL;@2bd9ed18
+2018-09-04 07:48:30 DEBUG ArrayConverter:127 - Converting 'java.net.URL[]' value '[Ljava.net.URL;@2bd9ed18' to type 'java.net.URL[]'
+2018-09-04 07:48:30 DEBUG ArrayConverter:149 -     No conversion required, value is already a java.net.URL[]
+2018-09-04 07:48:30  WARN JSONObject:1370 - Can't transform property 'returnCode' from java.lang.String into holley_server.lysw.model.BankReturnStatusEnum. Will register a default Morpher
+2018-09-04 07:48:30  INFO BankWithholdServiceImpl:183 -  发送 <15c0c099>000001       161                                 0
+2018-09-04 07:48:30  INFO BankWithholdServiceImpl:189 -  发送 <15c0c099>07021|000|16543002|龙游溪口翠竹小区21-2-102/16543002|6228580899022655868|龙游溪口翠竹小区21-2-102|15857017519|00000016543002||||||||||||2018-09-04|||lxzls|Jhzls|
+2018-09-04 07:48:30  INFO TcpHandler:75 - 15c0c099已断开
+2018-09-04 07:48:30  INFO TcpHandler:76 - channelInactive
+2018-09-04 07:50:06  INFO LoggingHandler:101 - [id: 0xd613334f, L:/121.1.3.30:7803] READ: [id: 0x5b63a555, L:/121.1.3.30:7803 - R:/133.1.1.68:2411]
+2018-09-04 07:50:06  INFO LoggingHandler:101 - [id: 0xd613334f, L:/121.1.3.30:7803] READ COMPLETE
+2018-09-04 07:50:06 DEBUG DefaultListableBeanFactory:249 - Returning cached instance of singleton bean 'bankWithholdService'
+2018-09-04 07:50:06  INFO TcpHandler:58 - TcpHandlerInit.....
+2018-09-04 07:50:06  INFO TcpHandler:64 - 建立联接5b63a555 地址：133.1.1.68 端口：2411已连接
+2018-09-04 07:50:06  INFO TcpHandler:109 - 接收 <5b63a555>SDB
+2018-09-04 07:50:06  INFO TcpHandler:117 - 发送 <5b63a555>ADR
+2018-09-04 07:50:06  INFO TcpHandler:120 - 接收 <5b63a555>000001        71                                  
+2018-09-04 07:50:06  INFO TcpHandler:136 - 接收 <5b63a555>07021||16543109||6230910899013916599|||||||||||||||2018-09-04|||lxzls||
+2018-09-04 07:50:06  INFO Job:53 - 代扣用户登记交易正在进行。。。
+2018-09-04 07:50:06  INFO HttpRequestUtil:238 - {"data":"ZOb0\/v3VybFEvp7CPmrc8D1e5D1NSddw1VBUAO8Gf7PNzrj6Tgn8hh\/Ko4qF8nO9hP0XtCr+S79zKRxYz7yCYQjnZfm17Idk62YN8E\/tKg6uoJjpTjzoNDxXrO9R2zgbFbcG2+G4eWneenlV2f3qh8oyeM\/NUkxNA3tWbw0vnWkjb6vPauYarh6ZrHQQblUEZX1eGlWkBqhIyh5S17WOnB5RQ0j8HE3lZSH97dJGtZFLJ80h\/67mrZ4DR6O2rci3b6vF88gcWBVk9o6hgOqdYUWGCrvbOymRpRQ19rZBLdkictf\/HDIXs+QKZhdV3ibKNMXuCyhagwX++HjAR3ApcXsLwuS7qCYfk4uxmnOaMwIHenvE26rGinLSlT6vB4Qf","msg":"请求成功","operatorId":"330414214","ret":0,"sig":"58D302575A94A03C401E73DBE3C4FBC5"}
+
+2018-09-04 07:50:06  INFO BankWithholdServiceImpl:183 -  发送 <5b63a555>000001       159                                 0
+2018-09-04 07:50:06  INFO BankWithholdServiceImpl:189 -  发送 <5b63a555>07021|101|16543109|龙游溪口翠竹小区4-2-401/16543109|6230910899013916599|龙游溪口翠竹小区4-2-401|18268964518|00000016543109||||||||||||2018-09-04|||lxzls|Jhzls|
+2018-09-04 07:50:06  INFO TcpHandler:75 - 5b63a555已断开
+2018-09-04 07:50:06  INFO TcpHandler:76 - channelInactive
+2018-09-04 07:52:48  INFO LoggingHandler:101 - [id: 0xd613334f, L:/121.1.3.30:7803] READ: [id: 0xea61b39f, L:/121.1.3.30:7803 - R:/133.1.1.68:2413]
+2018-09-04 07:52:48  INFO LoggingHandler:101 - [id: 0xd613334f, L:/121.1.3.30:7803] READ COMPLETE
+2018-09-04 07:52:48 DEBUG DefaultListableBeanFactory:249 - Returning cached instance of singleton bean 'bankWithholdService'
+2018-09-04 07:52:48  INFO TcpHandler:58 - TcpHandlerInit.....
+2018-09-04 07:52:48  INFO TcpHandler:64 - 建立联接ea61b39f 地址：133.1.1.68 端口：2413已连接
+2018-09-04 07:52:48  INFO TcpHandler:109 - 接收 <ea61b39f>SDB
+2018-09-04 07:52:48  INFO TcpHandler:117 - 发送 <ea61b39f>ADR
+2018-09-04 07:52:48  INFO TcpHandler:120 - 接收 <ea61b39f>000001        71                                  
+2018-09-04 07:52:48  INFO TcpHandler:136 - 接收 <ea61b39f>07021||16547625||6228580899022642601|||||||||||||||2018-09-04|||lxzls||
+2018-09-04 07:52:48  INFO Job:53 - 代扣用户登记交易正在进行。。。
+2018-09-04 07:52:49  INFO HttpRequestUtil:238 - {"data":"ZOb0\/v3VybFEvp7CPmrc8P\/QFhnuISn1EdgEKRu6KwxdDlbXB7a40Lp4j7o4BtMKOChydSysDlqx4gjMdXrGkmRmOmKPZy+adsz+bB9bs7+K\/fTFvIpY9Wq8RZO7cXb88FLizeJuzRxxnR+x8jNpPT6HqntcCdjX4aAu0wg9oVlp8HdsDwv+3ifRl9NMS7APIxxMKyBvXAxf9HVTqBnKxNU5gwJ8ToBcidOi+Dk5rseslo4VA229TdxQZPOzdO\/mlJFVh8XpX0h1rqhOPNMeVU9wnsnJQZq3SLIveezjLZKj0SOJ1rjjZ1PH83EM9yHsVbmPaOSd6vhlD1nHR2l+3lWRn6eP8nocbzbyPR\/joPA8SpSMCDRgjUXEmaIqkn4b","msg":"请求成功","operatorId":"330414214","ret":0,"sig":"B192362533115F4DB628A19ABC9F0B47"}
+
+2018-09-04 07:52:49  INFO BankWithholdServiceImpl:183 -  发送 <ea61b39f>000001       161                                 0
+2018-09-04 07:52:49  INFO BankWithholdServiceImpl:189 -  发送 <ea61b39f>07021|101|16547625|龙游溪口翠竹小区35-1-101/16547625|6228580899022642601|龙游溪口翠竹小区35-1-101|13857034906|00000016547625||||||||||||2018-09-04|||lxzls|Jhzls|
+2018-09-04 07:52:49  INFO TcpHandler:75 - ea61b39f已断开
+2018-09-04 07:52:49  INFO TcpHandler:76 - channelInactive
+2018-09-04 08:58:59  INFO LoggingHandler:101 - [id: 0xd613334f, L:/121.1.3.30:7803] READ: [id: 0x086faafc, L:/121.1.3.30:7803 - R:/133.1.1.68:2415]
+2018-09-04 08:58:59  INFO LoggingHandler:101 - [id: 0xd613334f, L:/121.1.3.30:7803] READ COMPLETE
+2018-09-04 08:58:59 DEBUG DefaultListableBeanFactory:249 - Returning cached instance of singleton bean 'bankWithholdService'
+2018-09-04 08:58:59  INFO TcpHandler:58 - TcpHandlerInit.....
+2018-09-04 08:58:59  INFO TcpHandler:64 - 建立联接086faafc 地址：133.1.1.68 端口：2415已连接
+2018-09-04 08:58:59  INFO TcpHandler:109 - 接收 <086faafc>SDB
+2018-09-04 08:58:59  INFO TcpHandler:117 - 发送 <086faafc>ADR
+2018-09-04 08:58:59  INFO TcpHandler:120 - 接收 <086faafc>000001        71                                  
+2018-09-04 08:58:59  INFO TcpHandler:136 - 接收 <086faafc>07021||16543250||6210580899000950354|||||||||||||||2018-09-04|||lxzls||
+2018-09-04 08:58:59  INFO Job:53 - 代扣用户登记交易正在进行。。。
+2018-09-04 08:59:00  INFO HttpRequestUtil:238 - {"data":"ZOb0\/v3VybFEvp7CPmrc8KbYmpmmDqlTpUNCojfpTdh\/fDaSHAN+WdHWfoCfmmVMzebmb1fzfMDAponSQp2EQI2Sp7JdwlklXYHkxlsjmHEbHGDXtrp1Np6\/ZU6sa5v6YQoLnOL+rWRb\/p1PerLcYnPz8ZsG4syeYc7YlqHEW10McOnnHgHF0+Kf5\/vuZVeSRQGk5c8RKcBAg7l\/2gtehm5LFRAMDf\/UZKJbkGW2grfzh28h8+3O9vYbbPtopj3+LrNihV0lson+XiZbG9AWgo8i2EYpD9E1nBNi+cWxUv1r+ZgoV\/dhcBGqLgSv8eHPgDYxjEMw5jCVhWow1U9eMmmi8y8dHWPBIDLBgdqpZzc=","msg":"请求成功","operatorId":"330414214","ret":0,"sig":"4E16269233E47594A38153F14FF98144"}
+
+2018-09-04 08:59:00  INFO BankWithholdServiceImpl:183 -  发送 <086faafc>000001       159                                 0
+2018-09-04 08:59:00  INFO BankWithholdServiceImpl:189 -  发送 <086faafc>07021|000|16543250|龙游溪口翠竹小区4-2-402/16543250|6210580899000950354|龙游溪口翠竹小区4-2-402|18857033960|00000016543250||||||||||||2018-09-04|||lxzls|Jhzls|
+2018-09-04 08:59:00  INFO TcpHandler:75 - 086faafc已断开
+2018-09-04 08:59:00  INFO TcpHandler:76 - channelInactive
+2018-09-04 09:20:25  INFO LoggingHandler:101 - [id: 0xd613334f, L:/121.1.3.30:7803] READ: [id: 0x7cb0fb45, L:/121.1.3.30:7803 - R:/133.1.1.68:2417]
+2018-09-04 09:20:25  INFO LoggingHandler:101 - [id: 0xd613334f, L:/121.1.3.30:7803] READ COMPLETE
+2018-09-04 09:20:25 DEBUG DefaultListableBeanFactory:249 - Returning cached instance of singleton bean 'bankWithholdService'
+2018-09-04 09:20:25  INFO TcpHandler:58 - TcpHandlerInit.....
+2018-09-04 09:20:25  INFO TcpHandler:64 - 建立联接7cb0fb45 地址：133.1.1.68 端口：2417已连接
+2018-09-04 09:20:25  INFO TcpHandler:109 - 接收 <7cb0fb45>SDB
+2018-09-04 09:20:25  INFO TcpHandler:117 - 发送 <7cb0fb45>ADR
+2018-09-04 09:20:25  INFO TcpHandler:120 - 接收 <7cb0fb45>000001        71                                  
+2018-09-04 09:20:25  INFO TcpHandler:136 - 接收 <7cb0fb45>07022||16547625||6228580899015766417|||||||||||||||2018-09-04|||lxzls||
+2018-09-04 09:20:25  INFO Job:63 - 撤消登记交易正在进行。。。
+2018-09-04 09:20:25  INFO HttpRequestUtil:238 - {"data":"Kqo7IuBkXXSNg7+4CO9+g+\/BPf9qG4H2z3ok3hQE3LBCUJWzEhDhvr00rQK\/dL\/b","msg":"请求成功","operatorId":"330414214","ret":0,"sig":"32ADDAD893BA521DCA1D4718E0F483F6"}
+
+2018-09-04 09:20:25  INFO BankWithholdServiceImpl:183 -  发送 <7cb0fb45>000001        79                                 0
+2018-09-04 09:20:25  INFO BankWithholdServiceImpl:189 -  发送 <7cb0fb45>07022|000|16547625||6228580899015766417|||||||||||||||2018-09-04|||lxzls|Jhzls|
+2018-09-04 09:20:25  INFO TcpHandler:75 - 7cb0fb45已断开
+2018-09-04 09:20:25  INFO TcpHandler:76 - channelInactive
+2018-09-04 09:21:13  INFO LoggingHandler:101 - [id: 0xd613334f, L:/121.1.3.30:7803] READ: [id: 0x658ee690, L:/121.1.3.30:7803 - R:/133.1.1.68:2419]
+2018-09-04 09:21:13  INFO LoggingHandler:101 - [id: 0xd613334f, L:/121.1.3.30:7803] READ COMPLETE
+2018-09-04 09:21:13 DEBUG DefaultListableBeanFactory:249 - Returning cached instance of singleton bean 'bankWithholdService'
+2018-09-04 09:21:13  INFO TcpHandler:58 - TcpHandlerInit.....
+2018-09-04 09:21:13  INFO TcpHandler:64 - 建立联接658ee690 地址：133.1.1.68 端口：2419已连接
+2018-09-04 09:21:13  INFO TcpHandler:109 - 接收 <658ee690>SDB
+2018-09-04 09:21:13  INFO TcpHandler:117 - 发送 <658ee690>ADR
+2018-09-04 09:21:13  INFO TcpHandler:120 - 接收 <658ee690>000001        71                                  
+2018-09-04 09:21:13  INFO TcpHandler:136 - 接收 <658ee690>07021||16547625||6228580899022642601|||||||||||||||2018-09-04|||lxzls||
+2018-09-04 09:21:13  INFO Job:53 - 代扣用户登记交易正在进行。。。
+2018-09-04 09:21:13  INFO HttpRequestUtil:238 - {"data":"ZOb0\/v3VybFEvp7CPmrc8KHfRbtyWt5YeATH29pVoDE3JOtHbL99IYOvhPbPNATv92K8UqUq9JgzhhWBK7F4\/6zA+sTOOA\/y5N0gserr5LyS8MqwOvIZ8nZavnSqfP3Kko3JKePxmkS8d9BD\/8X3se6ljdCmjJJYIe\/BoSbtpG4\/SpCTMFO6LK6tFP4Kuuy9Nl46Pav2A8unNU8AiLbBKHk1cOBbp4jHKM7Gxti\/hqKKF8S7WqqtQt3OlKOfB5gff0kzcXTQRjS1YbefgklBGth8PHjvEXXyjGu2DjV1wOhZiTMaclfjUFGxvZdk9d1L04TW\/2L0Y1qlGDF7Lj9F\/usX2yMkJ2gkuahIFD7DEbU=","msg":"请求成功","operatorId":"330414214","ret":0,"sig":"8C28537CE626FA7CB5590F522F0F940C"}
+
+2018-09-04 09:21:13  INFO BankWithholdServiceImpl:183 -  发送 <658ee690>000001       161                                 0
+2018-09-04 09:21:13  INFO BankWithholdServiceImpl:189 -  发送 <658ee690>07021|000|16547625|龙游溪口翠竹小区35-1-101/16547625|6228580899022642601|龙游溪口翠竹小区35-1-101|13857034906|00000016547625||||||||||||2018-09-04|||lxzls|Jhzls|
+2018-09-04 09:21:13  INFO TcpHandler:75 - 658ee690已断开
+2018-09-04 09:21:13  INFO TcpHandler:76 - channelInactive
+2018-09-04 09:21:41  INFO LoggingHandler:101 - [id: 0xd613334f, L:/121.1.3.30:7803] READ: [id: 0x1c2fae96, L:/121.1.3.30:7803 - R:/133.1.1.68:2421]
+2018-09-04 09:21:41  INFO LoggingHandler:101 - [id: 0xd613334f, L:/121.1.3.30:7803] READ COMPLETE
+2018-09-04 09:21:41 DEBUG DefaultListableBeanFactory:249 - Returning cached instance of singleton bean 'bankWithholdService'
+2018-09-04 09:21:41  INFO TcpHandler:58 - TcpHandlerInit.....
+2018-09-04 09:21:41  INFO TcpHandler:64 - 建立联接1c2fae96 地址：133.1.1.68 端口：2421已连接
+2018-09-04 09:21:41  INFO TcpHandler:109 - 接收 <1c2fae96>SDB
+2018-09-04 09:21:41  INFO TcpHandler:117 - 发送 <1c2fae96>ADR
+2018-09-04 09:21:41  INFO TcpHandler:120 - 接收 <1c2fae96>000001        71                                  
+2018-09-04 09:21:41  INFO TcpHandler:136 - 接收 <1c2fae96>07022||16543109||6230910899010329259|||||||||||||||2018-09-04|||lxzls||
+2018-09-04 09:21:41  INFO Job:63 - 撤消登记交易正在进行。。。
+2018-09-04 09:21:41  INFO HttpRequestUtil:238 - {"data":"Kqo7IuBkXXSNg7+4CO9+g+\/BPf9qG4H2z3ok3hQE3LBCUJWzEhDhvr00rQK\/dL\/b","msg":"请求成功","operatorId":"330414214","ret":0,"sig":"32ADDAD893BA521DCA1D4718E0F483F6"}
+
+2018-09-04 09:21:41  INFO BankWithholdServiceImpl:183 -  发送 <1c2fae96>000001        79                                 0
+2018-09-04 09:21:41  INFO BankWithholdServiceImpl:189 -  发送 <1c2fae96>07022|000|16543109||6230910899010329259|||||||||||||||2018-09-04|||lxzls|Jhzls|
+2018-09-04 09:21:41  INFO TcpHandler:75 - 1c2fae96已断开
+2018-09-04 09:21:41  INFO TcpHandler:76 - channelInactive
+2018-09-04 09:22:28  INFO LoggingHandler:101 - [id: 0xd613334f, L:/121.1.3.30:7803] READ: [id: 0x0b8d5963, L:/121.1.3.30:7803 - R:/133.1.1.68:2423]
+2018-09-04 09:22:28  INFO LoggingHandler:101 - [id: 0xd613334f, L:/121.1.3.30:7803] READ COMPLETE
+2018-09-04 09:22:28 DEBUG DefaultListableBeanFactory:249 - Returning cached instance of singleton bean 'bankWithholdService'
+2018-09-04 09:22:28  INFO TcpHandler:58 - TcpHandlerInit.....
+2018-09-04 09:22:28  INFO TcpHandler:64 - 建立联接0b8d5963 地址：133.1.1.68 端口：2423已连接
+2018-09-04 09:22:28  INFO TcpHandler:109 - 接收 <0b8d5963>SDB
+2018-09-04 09:22:28  INFO TcpHandler:117 - 发送 <0b8d5963>ADR
+2018-09-04 09:22:28  INFO TcpHandler:120 - 接收 <0b8d5963>000001        71                                  
+2018-09-04 09:22:28  INFO TcpHandler:136 - 接收 <0b8d5963>07021||16543109||6230910899013916599|||||||||||||||2018-09-04|||lxzls||
+2018-09-04 09:22:28  INFO Job:53 - 代扣用户登记交易正在进行。。。
+2018-09-04 09:22:28  INFO HttpRequestUtil:238 - {"data":"ZOb0\/v3VybFEvp7CPmrc8JJCurQ1aaqcMrNpqvYLfN5vQiGMmUzJTd0B7JqkJJNFA0nW4cpsXlVBuiMUG2CY9eWF1H3hiAIqE8YtKD9NWmJwDeFcEvgZGqHMmAgB7Gv+q+RXJ72odwICvd4vJraV8\/ngMKlgN1YJdbsbGMYQOj\/YUZaoRiM3RQf4\/eRr5jXgfzBho4Va493HM+WkbFdHOiXWXTntTGumpJj6IRueFWqAStySES4bZAl50JeDMDOrMono4vXvZ03rmBXoBpa2CXGihb4KHDFHB+RjSXO4PFOYt1DrXiHllYm6n3xKSFzSI4xflKahUBjt96QM1AV7C3Py7oKAWJtNOPShrGKOCUc=","msg":"请求成功","operatorId":"330414214","ret":0,"sig":"D47086ADA3615A56BD5AA0B527E59363"}
+
+2018-09-04 09:22:28  INFO BankWithholdServiceImpl:183 -  发送 <0b8d5963>000001       159                                 0
+2018-09-04 09:22:28  INFO BankWithholdServiceImpl:189 -  发送 <0b8d5963>07021|000|16543109|龙游溪口翠竹小区4-2-401/16543109|6230910899013916599|龙游溪口翠竹小区4-2-401|18268964518|00000016543109||||||||||||2018-09-04|||lxzls|Jhzls|
+2018-09-04 09:22:28  INFO TcpHandler:75 - 0b8d5963已断开
+2018-09-04 09:22:28  INFO TcpHandler:76 - channelInactive
+2018-09-04 11:14:36  INFO LoggingHandler:101 - [id: 0xd613334f, L:/121.1.3.30:7803] READ: [id: 0x832f59bd, L:/121.1.3.30:7803 - R:/133.1.1.68:2425]
+2018-09-04 11:14:36  INFO LoggingHandler:101 - [id: 0xd613334f, L:/121.1.3.30:7803] READ COMPLETE
+2018-09-04 11:14:36 DEBUG DefaultListableBeanFactory:249 - Returning cached instance of singleton bean 'bankWithholdService'
+2018-09-04 11:14:36  INFO TcpHandler:58 - TcpHandlerInit.....
+2018-09-04 11:14:36  INFO TcpHandler:64 - 建立联接832f59bd 地址：133.1.1.68 端口：2425已连接
+2018-09-04 11:14:36  INFO TcpHandler:109 - 接收 <832f59bd>SDB
+2018-09-04 11:14:36  INFO TcpHandler:117 - 发送 <832f59bd>ADR
+2018-09-04 11:14:36  INFO TcpHandler:120 - 接收 <832f59bd>000001        71                                  
+2018-09-04 11:14:36  INFO TcpHandler:136 - 接收 <832f59bd>07021||16547873||6230910899009237786|||||||||||||||2018-09-04|||lxzls||
+2018-09-04 11:14:36  INFO Job:53 - 代扣用户登记交易正在进行。。。
+2018-09-04 11:14:36  INFO HttpRequestUtil:238 - {"data":"ZOb0\/v3VybFEvp7CPmrc8P5cZ5lHpXD1Qoz5aiPYkZrhdvzGUigNWBdFp7kyiFZh86deM0h4LiaqmrBjxD9Gsl6nth1SAXEmvjAQnOzv5VspOH8P0ANgphupEAxisAd6eXq\/zynmxwuDnPJdSqE+Cp8Sj97VFbCx78uW2de4pxD064uayur2+flVKcvl1BCM5rjzxcxjW4Lg76yd4GFO\/Y7W\/w+p+19PM0TaJtG3zB5lZBHgUq16mf7EmHnTPIG602VNDw7zv84UaTct\/JoVhk9r8y7sTYOZ0GfTmXIJEkfTEpJ\/EdD5HTNoinlVJr5FnELoeTbeXIR3byaycyvREJbIVhzmaqEDNeJQ3QX1fPs=","msg":"请求成功","operatorId":"330414214","ret":0,"sig":"BCCE32C8F4D80903D0B9A6AD14A3CB65"}
+
+2018-09-04 11:14:36  INFO BankWithholdServiceImpl:183 -  发送 <832f59bd>000001       161                                 0
+2018-09-04 11:14:36  INFO BankWithholdServiceImpl:189 -  发送 <832f59bd>07021|000|16547873|龙游溪口翠竹小区41-2-202/16547873|6230910899009237786|龙游溪口翠竹小区41-2-202|13059718568|00000016547873||||||||||||2018-09-04|||lxzls|Jhzls|
+2018-09-04 11:14:36  INFO TcpHandler:75 - 832f59bd已断开
+2018-09-04 11:14:36  INFO TcpHandler:76 - channelInactive

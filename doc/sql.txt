@@ -1,0 +1,14 @@
+1.滞纳金记录表
+recordID:月账单记录ID
+addTime:添加时间
+updateTime:更新时间
+money:滞纳金金额
+2.推送记录表
+recordID:月账单记录ID
+addTime:添加时间
+updateTime:更新时间
+cutCount:扣款次数
+returnInfo:返回信息
+status：状态？是否加
+
+3.状态增加：扣款失败，扣款成功

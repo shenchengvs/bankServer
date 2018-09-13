@@ -1,0 +1,22 @@
+2018-08-22 14:16:11  INFO LoggingHandler:101 - [id: 0x89c80e7d, L:/121.1.3.30:7803] READ: [id: 0xf7e81462, L:/121.1.3.30:7803 - R:/133.1.1.68:2380]
+2018-08-22 14:16:11  INFO LoggingHandler:101 - [id: 0x89c80e7d, L:/121.1.3.30:7803] READ COMPLETE
+2018-08-22 14:16:11 DEBUG DefaultListableBeanFactory:249 - Returning cached instance of singleton bean 'bankWithholdService'
+2018-08-22 14:16:11  INFO TcpHandler:58 - TcpHandlerInit.....
+2018-08-22 14:16:11  INFO TcpHandler:64 - 建立联接f7e81462 地址：133.1.1.68 端口：2380已连接
+2018-08-22 14:16:11  INFO TcpHandler:109 - 接收 <f7e81462>SDB
+2018-08-22 14:16:11  INFO TcpHandler:117 - 发送 <f7e81462>ADR
+2018-08-22 14:16:11  INFO TcpHandler:120 - 接收 <f7e81462>000001        71                                  
+2018-08-22 14:16:11  INFO TcpHandler:136 - 接收 <f7e81462>07021||16543261||6230910899005126298|||||||||||||||2018-08-22|||lxzls||
+2018-08-22 14:16:11  INFO Job:53 - 代扣用户登记交易正在进行。。。
+2018-08-22 14:16:11  INFO HttpRequestUtil:238 - {"data":null,"msg":"Token错误","operatorId":null,"ret":4002,"sig":null}
+
+2018-08-22 14:16:11  INFO BankWithholdServiceHttpImpl:33 - token过期，正在重新请求token......
+2018-08-22 14:16:11  INFO HttpRequestUtil:238 - {"data":"QmkJwJlMPUCvvXZs8djVFVHmcGGz1HKhlfaHBWRrdvOS00WnuU6rKNklC3\/uqU+cdUsHbTCZVJkp3HEz6WBdMcW2VUrYcyBNpDCbowzv3sKXNAhAyBK2e18s+GIwAoYsAYa9YBubl8cporMCSLWqmNAmwl53c89JJHoIkZONVcYjuarL+AIQVwp2Z8cIPRLx","msg":"请求成功","operatorId":"330414214","ret":0,"sig":"FD3EF609D88C7897A37FB227C9C56D14"}
+
+2018-08-22 14:16:11  INFO CommonUtil:253 - token重设成功：值d5af8d5e083c48b69e8aaa2cfa49c3b9
+2018-08-22 14:16:11  INFO HttpRequestUtil:238 - {"data":"ZOb0\/v3VybFEvp7CPmrc8EHRug5p7KGMp1k4+PcOX1pB2BeEJKdKWid4TYdRRk8zzBpr+p9XJQcaiSUnB9u9+f13LuDYqZGGHGhA+4hVZ\/OGnPSpRwkLYefW38LtSCIVOxpUp3ZFi16kZtxm0qBhB9qLJqucSGanxxvCFikgx5rapj6sftpa5vYsM+1OsoZ\/3c1+tVNmuCFB7+oIkodyBjlTK\/fTtWDX\/\/Hw87\/jbrRjxJn8jrGxhGN6P8EIF\/8YZmsM9nO4WNqRXW2FFs4lTusLXCaRlyrEa6UGXfHTC8mrkd023z5rBcVugg3xuUCswysDEzybWM6DEmPfbvAq43vINhM6Ne5DFoVEz6m\/pKI=","msg":"请求成功","operatorId":"330414214","ret":0,"sig":"E7DF65E83F27F5D65B2E17E2679F19B8"}
+
+2018-08-22 14:16:11  INFO BankWithholdServiceImpl:183 -  发送 <f7e81462>000001       159                                 0
+2018-08-22 14:16:11  INFO BankWithholdServiceImpl:189 -  发送 <f7e81462>07021|000|16543261|龙游溪口翠竹小区排楼50-1/16543261|6230910899005126298|龙游溪口翠竹小区排楼50-1|13646704895|000016543261||||||||||||2018-08-22|||lxzls|Jhzls|
+2018-08-22 14:16:11  INFO TcpHandler:75 - f7e81462已断开
+2018-08-22 14:16:11  INFO TcpHandler:76 - channelInactive

@@ -1,0 +1,16 @@
+2018-07-27 14:46:01  INFO LoggingHandler:101 - [id: 0x8140688e, L:/121.1.3.30:7803] READ: [id: 0xa25e80fb, L:/121.1.3.30:7803 - R:/133.1.1.68:2142]
+2018-07-27 14:46:01  INFO LoggingHandler:101 - [id: 0x8140688e, L:/121.1.3.30:7803] READ COMPLETE
+2018-07-27 14:46:01 DEBUG DefaultListableBeanFactory:249 - Returning cached instance of singleton bean 'bankWithholdService'
+2018-07-27 14:46:01  INFO TcpHandler:58 - TcpHandlerInit.....
+2018-07-27 14:46:01  INFO TcpHandler:64 - 建立联接a25e80fb 地址：133.1.1.68 端口：2142已连接
+2018-07-27 14:46:01  INFO TcpHandler:109 - 接收 <a25e80fb>SDB
+2018-07-27 14:46:01  INFO TcpHandler:117 - 发送 <a25e80fb>ADR
+2018-07-27 14:46:01  INFO TcpHandler:120 - 接收 <a25e80fb>000001        71                                  
+2018-07-27 14:46:01  INFO TcpHandler:136 - 接收 <a25e80fb>07021||16547591||6228580899022655850|||||||||||||||2018-07-27|||lxzls||
+2018-07-27 14:46:01  INFO Job:53 - 代扣用户登记交易正在进行。。。
+2018-07-27 14:46:01  INFO HttpRequestUtil:238 - {"data":"ZOb0\/v3VybFEvp7CPmrc8LjFccTqKw+dKl09qvNqZ4HcWhP8mOk2zCQMBcpzX0AsQL2jUvlv\/7D28\/aWKu8O9UT\/Zucq+Mr2AsyzmfKUbCwGpIS1euLjIkpn7rcUuSZHKIcajKf3btR+V7S6DLsawTSccQmMH8DJ91icPbWR3xGnr9OTy8CwP3eNo+NKLs6Bh7\/wiG0FVU\/Y804r1tObnyzMMI+qZ4OLtvk23lVQv\/EQXHhT2ZCbr\/fhgDUlOQmpRBwjugoMf9\/Q5Cpa\/WmwiBysXi+dQt5pKCxBUo+hQM12yDR2G9hYMM88u\/4CxQSIQcIDWJ9d8nfkgdOnd1ppn\/sRPyxIgpWyfReVxymhol8=","msg":"请求成功","operatorId":"330414214","ret":0,"sig":"B50447CDDE2DF3F462DA1B2B78A719BC"}
+
+2018-07-27 14:46:01  INFO BankWithholdServiceImpl:183 -  发送 <a25e80fb>000001       152                                 0
+2018-07-27 14:46:01  INFO BankWithholdServiceImpl:189 -  发送 <a25e80fb>07021|000|16547591|龙游溪口翠竹小区10-2-402|6228580899022655850|龙游溪口翠竹小区10-2-402|13655709216|00000016547591||||||||||||2018-07-27|||lxzls|Jhzls|
+2018-07-27 14:46:01  INFO TcpHandler:75 - a25e80fb已断开
+2018-07-27 14:46:01  INFO TcpHandler:76 - channelInactive

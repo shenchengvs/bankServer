@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:aop="http://www.springframework.org/schema/aop"
+	xmlns:tx="http://www.springframework.org/schema/tx" xmlns:jdbc="http://www.springframework.org/schema/jdbc"
+	xmlns:context="http://www.springframework.org/schema/context"
+	xmlns:flex="http://www.springframework.org/schema/flex"
+	xsi:schemaLocation="       
+      http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context-4.0.xsd       
+      http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-4.0.xsd       
+      http://www.springframework.org/schema/jdbc http://www.springframework.org/schema/jdbc/spring-jdbc-4.0.xsd       
+      http://www.springframework.org/schema/tx http://www.springframework.org/schema/tx/spring-tx-4.0.xsd       
+      http://www.springframework.org/schema/aop http://www.springframework.org/schema/aop/spring-aop-4.0.xsd
+      http://www.springframework.org/schema/flex
+      http://www.springframework.org/schema/flex/spring-flex-1.0.xsd"
+	default-autowire="byName">
+	<!-- 定时向服务器请求扣款文件  -->
+	<bean id="taskJob" class="holley_server.lysw.task.Task" scope="prototype"/>
+	<bean id="taskCreater" class="org.springframework.scheduling.quartz.MethodInvokingJobDetailFactoryBean">
+		<property name="targetObject" ref="taskJob" />
+		<property name="targetMethod" value="execute" />
+		<property name="concurrent" value="false" />
+	</bean>
+	 <bean id="taskTrigger" class="org.springframework.scheduling.quartz.CronTriggerFactoryBean">
+		<property name="jobDetail" ref="taskCreater" />
+		<property name="cronExpression" value="0/10 * * * * ? *" />
+		<!-- 每月13、14日21点整执行 -->
+		<!-- <property name="cronExpression" value="0 0 21 13,14 * ? " /> -->
+	</bean>
+	
+	<!-- 服务器定时清理过期文件 -->
+	<bean id="clearFileTaskJob" class="holley_server.lysw.task.ClearFileTask" scope="prototype"/>
+	<bean id="taskCreater1" class="org.springframework.scheduling.quartz.MethodInvokingJobDetailFactoryBean">
+		<property name="targetObject" ref="clearFileTaskJob" />
+		<property name="targetMethod" value="execute" />
+		<property name="concurrent" value="false" />
+	</bean>
+	 <bean id="taskTrigger1" class="org.springframework.scheduling.quartz.CronTriggerFactoryBean">
+		<property name="jobDetail" ref="taskCreater1" />
+		<property name="cronExpression" value="0 1/1 * * * ? *" />
+		<!-- 每月1号4点整执行 -->
+		<!-- <property name="cronExpression" value="0 0 4 1 * ?" /> -->
+	</bean>
+	
+	<!-- checkBillForBjJob END-->
+	<bean id="schdulerFactory" lazy-init="false" class="org.springframework.scheduling.quartz.SchedulerFactoryBean"	autowire="no">
+		<property name="triggers">
+			<list>
+				<!-- <ref bean="taskTrigger"/>  -->
+			   <!-- <ref bean="taskTrigger1"/>  -->
+			</list>
+		</property>
+	</bean> 
+</beans>
